@@ -45,4 +45,4 @@ This core is not yet written.
 
 ## LCD display
 
-I have a Nokia5110 LCD which will display the output of the oscilloscope. Its incredibly slow, maxing out at about 4 FPS and is very low resolution at 84x48 pixels. But I own it and stuff.
+I have a Nokia5110 LCD which will display the output of the oscilloscope. Its incredibly slow, maxing out at about 4 FPS and is very low resolution at 84x48 pixels. But I already own it.
