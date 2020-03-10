@@ -4,15 +4,19 @@
 
 ## Analog to Digital
 
+[Dev Repo](https://github.com/PKazm/vhdl-experiments/tree/master/Delta_Sigma_ADC)
+
 The ADC for this oscilloscope is a custom Sigma-Delta (Delta-Sigma) design with a simple averaging filter on the output data. Components outside the FPGA can be as little as 1 capacitor and 1 resistor in a low pass filter configuration. More complicated (slightly) analog configurations would allow tunable voltage ranges and perhaps cleaner input data.
 
 The main specifications are the limit to a 50Mhz over sampling frequency. Given a desired 8 bit data width the raw sample rate would be 195Khz. This may be reduced further depending on the digital low pass filter.
 
 ## Sample Memory
 
-This oscilloscope will not be so complicated as to require more memory than is available in the FPGA fabric. To that end, filtered ADC samples will be stored in a LSRAM block. Probably up to 2048 samples at 8bit unsigned resolution. If I find a use for storing more I may incorporate the SPI flash memory on the dev-kit board or the eNVM RAM in the Microprocessor Sub-System.
+This oscilloscope will not be so large as to require more memory than is available in the FPGA fabric. To that end, filtered ADC samples will be stored in a LSRAM block. Exactly how much sample memory I need is yet to be determined but both the LCD and FFT will be operating on a sample count that easily fits within a single LSRAM. If I find a use for storing more I may incorporate the SPI flash memory on the dev-kit board or the eNVM RAM in the Microprocessor Sub-System.
 
 ## The Fourier Transform
+
+[Dev Repo](https://github.com/PKazm/vhdl-experiments/tree/master/FFT_Core)
 
 The ADC will feed the FFT core continuously. The FFT will be set to begin transforming samples whenever the input memory block is full. The transformed data will be available to be read 2 data sets later. Some manipulation of the FFT core is possible to reduce the latency if needed.
 
@@ -21,6 +25,8 @@ While there is an FFT core available from Microsemi, I do not have access to it.
 The transformed data will be in complex number format. I'm expecting the time to complete the transform to be far lower than the time to gather the samples.
 
 ## Complex Magnitude
+
+[Dev Repo](https://github.com/PKazm/vhdl-experiments/tree/master/Complex_Magnitude)
 
 The output of the FFT will be fed into this core to determine the magnitude of the complex number; aka the absolute value. I've looked into the following methods to determine the complex magnitude of the FFT output:
 * Pythagorean approach, based on a^2 + b^2 = c^2
@@ -44,5 +50,7 @@ While the FFT results should give proper scaling, they provide no method to lock
 This core is not yet written.
 
 ## LCD display
+
+[Dev Repo](https://github.com/PKazm/vhdl-experiments/tree/master/Nokia5110_Driver_Block)
 
 I have a Nokia5110 LCD which will display the output of the oscilloscope. Its incredibly slow, maxing out at about 4 FPS and is very low resolution at 84x48 pixels. But I own it and stuff.
