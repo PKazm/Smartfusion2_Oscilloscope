@@ -1,0 +1,8 @@
+DESIGN=Spectrum_Analyzer
+DESDIR=C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\designer\Spectrum_Analyzer
+TARGET_DIR=C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\designer\Spectrum_Analyzer
+FAM=SmartFusion2
+DIE=PA4M1000_N
+PACKAGE=tq144
+SPEED=STD
+PDC_FILE=C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\constraint\io\Digikey_Smartfusion2_Maker_Kit.pdc,,C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\constraint\io\user.pdc,,

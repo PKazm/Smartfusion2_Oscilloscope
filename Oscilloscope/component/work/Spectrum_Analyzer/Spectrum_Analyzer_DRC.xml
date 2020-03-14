@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>Spectrum_Analyzer</header>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected top level output port Spectrum_Analyzer:Board_J8</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Spectrum_Analyzer/pins/Spectrum_Analyzer:Board_J8</crossprobe>
+  </drc>
+</drcreport>

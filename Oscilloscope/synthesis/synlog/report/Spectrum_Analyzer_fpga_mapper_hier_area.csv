@@ -1,0 +1,47 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
+. Spectrum_Analyzer, 942, 1513, 476, 0, 3, 4, 10, 7, 9
+.	. Averaging_Filter, 54, 4, 11, 0, 0, 0, 0, 0, 0
+.	. COREABC_C0, 55, 350, 46, 0, 0, 0, 2, 1, 0
+.	.	. COREABC_C0_COREABC_C0_0_COREABC, 55, 350, 46, 0, 0, 0, 2, 1, 0
+.	.	.	. COREABC_C0_COREABC_C0_0_INSTRUCTIONS, 17, 103, 17, 0, 0, 0, 0, 0, 0
+.	.	.	. COREABC_C0_COREABC_C0_0_RAMBLOCKS, 1, 17, 3, 0, 0, 0, 2, 0, 0
+.	.	.	.	. COREABC_C0_COREABC_C0_0_RAM128X8, 0, 3, 0, 0, 0, 0, 1, 0, 0
+.	.	.	.	. COREABC_C0_COREABC_C0_0_RAM128X8_0, 0, 0, 0, 0, 0, 0, 1, 0, 0
+.	. CoreAPB3_C0, 0, 8, 0, 0, 0, 0, 0, 0, 0
+.	.	. CoreAPB3, 0, 8, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. COREAPB3_MUXPTOB3, 0, 8, 0, 0, 0, 0, 0, 0, 0
+.	. FCCC_C0, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	. FCCC_C0_FCCC_C0_0_FCCC, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	. FFT, 504, 744, 275, 0, 2, 4, 0, 0, 0
+.	.	. DPSRAM_C0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	.	. DPSRAM_C0_DPSRAM_C0_0_DPSRAM, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	. DPSRAM_C0_0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	.	. DPSRAM_C0_DPSRAM_C0_0_DPSRAM_0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	. DPSRAM_C0_1, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	.	. DPSRAM_C0_DPSRAM_C0_0_DPSRAM_1, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	. DPSRAM_C0_2, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	.	. DPSRAM_C0_DPSRAM_C0_0_DPSRAM_2, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	. FFT_Sample_Loader, 21, 132, 18, 0, 0, 0, 0, 0, 0
+.	.	. FFT_Sample_Outputer, 20, 28, 0, 0, 0, 0, 0, 0, 0
+.	.	. FFT_Transformer, 430, 390, 193, 0, 2, 0, 0, 0, 0
+.	.	.	. FFT_Butterfly_HW_MATHDSP, 239, 3, 124, 0, 2, 0, 0, 0, 0
+.	.	.	.	. HARD_MULT_ADDSUB_C0_0, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	. HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB_1, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	. HARD_MULT_ADDSUB_C0_1, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	. HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB_0, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	. Twiddle_table, 17, 144, 8, 0, 0, 0, 0, 0, 0
+.	. FFT_Result_to_Pixel_Bar, 133, 170, 55, 0, 1, 0, 0, 1, 0
+.	.	. Alpha_Max_plus_Beta_Min, 68, 41, 55, 0, 1, 0, 0, 0, 0
+.	.	.	. HARD_MULT_ADDSUB_C1, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	. HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	. Pixelbar_Creator, 33, 44, 0, 0, 0, 0, 0, 0, 0
+.	. Nokia5110_Driver, 132, 205, 36, 0, 0, 0, 8, 2, 0
+.	.	. timerZ0, 7, 11, 0, 0, 0, 0, 0, 1, 0
+.	.	. timerZ2_0, 20, 14, 19, 0, 0, 0, 0, 0, 0
+.	. OSC_C0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. OSC_C0_OSC_C0_0_OSC, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	. Power_On_Reset_Delay, 15, 7, 15, 0, 0, 0, 0, 1, 0
+.	. Sigma_Delta_LVDS_ADC, 29, 7, 19, 0, 0, 0, 0, 0, 0
+.	.	. timerZ1, 1, 1, 0, 0, 0, 0, 0, 0, 0
+.	. timerZ2_1, 20, 18, 19, 0, 0, 0, 0, 0, 0

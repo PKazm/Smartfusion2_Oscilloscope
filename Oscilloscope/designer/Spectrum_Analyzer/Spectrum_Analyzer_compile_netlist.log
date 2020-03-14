@@ -1,0 +1,58 @@
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(6444): WARNING: net 'N_2910' does not have a driver (VDB-1002)
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(6445): WARNING: net 'N_2911' does not have a driver (VDB-1002)
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(6508): WARNING: net 'N_2912' does not have a driver (VDB-1002)
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(6509): WARNING: net 'N_2913' does not have a driver (VDB-1002)
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(21967): WARNING: net 'N_2916' does not have a driver (VDB-1002)
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(21968): WARNING: net 'N_2917' does not have a driver (VDB-1002)
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(21969): WARNING: net 'N_2918' does not have a driver (VDB-1002)
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(21970): WARNING: net 'N_2919' does not have a driver (VDB-1002)
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(21971): WARNING: net 'N_2920' does not have a driver (VDB-1002)
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(21972): WARNING: net 'N_2921' does not have a driver (VDB-1002)
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(21973): WARNING: net 'N_2922' does not have a driver (VDB-1002)
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(21974): WARNING: net 'N_2923' does not have a driver (VDB-1002)
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(21975): WARNING: net 'N_2924' does not have a driver (VDB-1002)
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(21976): WARNING: net 'N_2925' does not have a driver (VDB-1002)
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(21977): WARNING: net 'N_2926' does not have a driver (VDB-1002)
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(21978): WARNING: net 'N_2927' does not have a driver (VDB-1002)
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(21979): WARNING: net 'N_2928' does not have a driver (VDB-1002)
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(21980): WARNING: net 'N_2929' does not have a driver (VDB-1002)
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(21981): WARNING: net 'N_2930' does not have a driver (VDB-1002)
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(21982): WARNING: net 'N_2931' does not have a driver (VDB-1002)
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(21983): WARNING: net 'N_2932' does not have a driver (VDB-1002)
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(21984): WARNING: net 'N_2933' does not have a driver (VDB-1002)
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(21985): WARNING: net 'N_2934' does not have a driver (VDB-1002)
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(21986): WARNING: net 'N_2935' does not have a driver (VDB-1002)
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(36013): WARNING: net 'N_2914' does not have a driver (VDB-1002)
+C:/Users/Phoenix136/Dropbox/FPGA/Microsemi/Oscilloscope/synthesis/Spectrum_Analyzer.vm(36014): WARNING: net 'N_2915' does not have a driver (VDB-1002)
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       7 
+      Globals that cannot be demoted:      1 
+      Globals considered for demotion:     6 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    959    0      0      'FCCC_C0_0/FCCC_C0_0/GL0_INST' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    20     0      3      'Nokia5110_Driver_0/SPI_timer/timer_clock_out_sig_inferred_clock_RNIPHR7' 
+    0      556    0      'Power_On_Reset_Delay_0/USER_FAB_RESET_OUT_N_i_RNIBP39' 
+    0      160    5      'COREABC_C0_0/COREABC_C0_0/RSTSYNC2_RNI49BF' 
+    0      103    0      'FFT_Result_to_Pixel_Bar_0/comp_rstn_RNI7BAB' 
+    0      27     0      'Nokia5110_Driver_0/Driver_reg_ctrl_RNIALOT_0[0]' 
+    0      15     0      'SYSRESET_0_RNIHNV1' 
+
+Info: Demotion information: 
+      Disconnected 3 data pins from global 'Nokia5110_Driver_0/SPI_timer/timer_clock_out_sig_inferred_clock_RNIPHR7'. 
+      Disconnected 4 data pins from global 'COREABC_C0_0/COREABC_C0_0/RSTSYNC2_RNI49BF'. 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>Oscilloscope_sd</header>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected top level output port Oscilloscope_sd:Board_J10</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/Oscilloscope_sd:Board_J10</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected top level output port Oscilloscope_sd:Board_J8</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/Oscilloscope_sd:Board_J8</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected top level output port Oscilloscope_sd:Board_J9</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/Oscilloscope_sd:Board_J9</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected top level output port Oscilloscope_sd:Board_J11</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/Oscilloscope_sd:Board_J11</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output bus pin Oscilloscope_sd:Board_Buttons[1:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/Oscilloscope_sd:Board_Buttons</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected top level output port Oscilloscope_sd:Board_J7[4:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/Oscilloscope_sd:Board_J7</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected top level output port Oscilloscope_sd:Board_LEDs[7:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/Oscilloscope_sd:Board_LEDs</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected top level output port Oscilloscope_sd:Board_MOD1[5:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/Oscilloscope_sd:Board_MOD1</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin Averaging_Filter_0:RSTn</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/Averaging_Filter_0:RSTn</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Unused Instance</message>
+    <detail>BIBUF_0 output pins are not being used.  Connect or mark them unused</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/instances/BIBUF_0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin BIBUF_0:D</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/BIBUF_0:D</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin BIBUF_0:E</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/BIBUF_0:E</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin BIBUF_0:Y</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/BIBUF_0:Y</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Unused Instance</message>
+    <detail>BIBUF_1 output pins are not being used.  Connect or mark them unused</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/instances/BIBUF_1</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin BIBUF_1:D</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/BIBUF_1:D</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin BIBUF_1:E</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/BIBUF_1:E</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin BIBUF_1:Y</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/BIBUF_1:Y</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin COREABC_C0_0:IO_IN[0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/COREABC_C0_0:IO_IN</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output bus pin COREABC_C0_0:IO_OUT[0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/COREABC_C0_0:IO_OUT</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin CoreAPB3_C0_0:APBmslave0</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/CoreAPB3_C0_0:APBmslave0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin CoreAPB3_C0_0:APBmslave1</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/CoreAPB3_C0_0:APBmslave1</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin CoreAPB3_C0_0:APBmslave2</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/CoreAPB3_C0_0:APBmslave2</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin FFT_0:RSTn</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/FFT_0:RSTn</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin FFT_0:out_r_en</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/FFT_0:out_r_en</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin FFT_0:out_read_done</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/FFT_0:out_read_done</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin FFT_0:out_data_ready</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/FFT_0:out_data_ready</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin FFT_0:out_valid</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/FFT_0:out_valid</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin FFT_0:out_data_adr[4:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/FFT_0:out_data_adr</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output bus pin FFT_0:out_dat_real[8:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/FFT_0:out_dat_real</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output bus pin FFT_0:out_dat_imag[8:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/FFT_0:out_dat_imag</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin Nokia5110_Driver_0:driver_busy</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/Nokia5110_Driver_0:driver_busy</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin Nokia5110_Driver_0:SPIDO</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/Nokia5110_Driver_0:SPIDO</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin Nokia5110_Driver_0:SPICLK</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/Nokia5110_Driver_0:SPICLK</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin Nokia5110_Driver_0:data_command</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/Nokia5110_Driver_0:data_command</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin Nokia5110_Driver_0:chip_enable</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/Nokia5110_Driver_0:chip_enable</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin Nokia5110_Driver_0:RSTout</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/Nokia5110_Driver_0:RSTout</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin Nokia5110_Driver_0:APB_Slave</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/Nokia5110_Driver_0:APB_Slave</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin Pixelbar_Creator_0:RSTn</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/Pixelbar_Creator_0:RSTn</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin Pixelbar_Creator_0:Data_in_ready</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/Pixelbar_Creator_0:Data_in_ready</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin Pixelbar_Creator_0:Data_out_ready</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/Pixelbar_Creator_0:Data_out_ready</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin Pixelbar_Creator_0:INT</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/Pixelbar_Creator_0:INT</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin Pixelbar_Creator_0:Data_in[7:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/Pixelbar_Creator_0:Data_in</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output bus pin Pixelbar_Creator_0:Pixel_bar_out[7:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/Pixelbar_Creator_0:Pixel_bar_out</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin Power_On_Reset_Delay_0:EXT_RESET_IN_N</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/Power_On_Reset_Delay_0:EXT_RESET_IN_N</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin Power_On_Reset_Delay_0:USER_FAB_RESET_IN_N</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/Power_On_Reset_Delay_0:USER_FAB_RESET_IN_N</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin Sigma_Delta_LVDS_ADC_0:LVDS_PADN_feedback</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Oscilloscope_sd/pins/Sigma_Delta_LVDS_ADC_0:LVDS_PADN_feedback</crossprobe>
+  </drc>
+</drcreport>

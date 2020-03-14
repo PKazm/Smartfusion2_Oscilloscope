@@ -1,0 +1,127 @@
+JUMP $MAIN
+
+    APBREAD FFT_ADR FFT_CTRL
+    BITTST FFT_DAT_VAL_POS
+    JUMP IFNOT ZERO $DONE_WITH_SMPL_BLOCK
+    
+    $DO_COLUMN
+    
+    
+    RAMREAD RAM_X_pos
+    APBWRT ACC FFT_ADR FFT_SMPL_ADR
+    APBWRT ACC LCD_ADR LCD_pixels_X_ADDR
+    
+    APBWRT DAT8 LCD_ADR LCD_pixels_Y_ADDR 0
+    APBWRT DAT8 LCD_ADR LCD_pixels_data_ADDR 0b01000000
+    
+    APBWRT DAT8 LCD_ADR LCD_pixels_Y_ADDR 1
+    APBREAD FFT_ADR FFT_SMPL_PB0
+    APBWRT ACC LCD_ADR LCD_pixels_data_ADDR
+
+    APBWRT DAT8 LCD_ADR LCD_pixels_Y_ADDR 2
+    APBREAD FFT_ADR FFT_SMPL_PB1
+    APBWRT ACC LCD_ADR LCD_pixels_data_ADDR
+
+    APBWRT DAT8 LCD_ADR LCD_pixels_Y_ADDR 3
+    APBREAD FFT_ADR FFT_SMPL_PB2
+    APBWRT ACC LCD_ADR LCD_pixels_data_ADDR
+
+    APBWRT DAT8 LCD_ADR LCD_pixels_Y_ADDR 4
+    APBREAD FFT_ADR FFT_SMPL_PB3
+    APBWRT ACC LCD_ADR LCD_pixels_data_ADDR
+    
+    APBWRT DAT8 LCD_ADR LCD_pixels_Y_ADDR 5
+    APBWRT DAT8 LCD_ADR LCD_pixels_data_ADDR 0b00000010
+    
+    RAMREAD RAM_X_pos
+    INC
+    CMP DAT 84
+    RAMWRT RAM_X_pos ACC
+    JUMP IFNOT ZERO $DO_COLUMN
+        // equal
+    
+    $DONE_WITH_SMPL_BLOCK
+
+    APBWRT DAT8 FFT_ADR FFT_CTRL FFT_DAT_DONE_MASK
+    
+    // change LCD frame buffer to write to
+    APBREAD LCD_ADR LCD_ctrl_ADDR
+    XOR DAT8 0b00000100
+    APBWRT ACC LCD_ADR LCD_ctrl_ADDR
+    RAMWRT RAM_X_pos DAT8 0
+
+    RETISR
+$MAIN
+
+    DEF FFT_ADR 0
+    
+    DEF FFT_CTRL 0x00
+    DEF FFT_SMPL_ADR 0x01
+    DEF FFT_SMPL_MAG 0x10
+    DEF FFT_SMPL_PB0 0x11
+    DEF FFT_SMPL_PB1 0x12
+    DEF FFT_SMPL_PB2 0x13
+    DEF FFT_SMPL_PB3 0x14
+    
+    DEF FFT_DAT_DONE_MASK 0b00000001
+    DEF FFT_DAT_DONE_POS 0
+    DEF FFT_DAT_VAL_MASK 0b00000010
+    DEF FFT_DAT_VAL_POS 2
+    DEF FFT_INT_MASK 0b10000000
+    DEF FFT_INT_POS 7
+    
+    
+    
+    DEF LCD_ADR 1
+    
+    DEF LCD_ctrl_ADDR 0x00
+    DEF LCD_pixels_data_ADDR 0x10
+    DEF LCD_pixels_X_ADDR 0x11
+    DEF LCD_pixels_Y_ADDR 0x12
+    
+    
+    //DEF RAM_pixels      0x00
+    //DEF RAM_pixels_last 0x01
+    DEF RAM_X_pos       0x02
+	
+	RAMWRT RAM_X_pos DAT8 0
+    
+    // set LCD to write to both frame buffers
+    APBREAD LCD_ADR LCD_ctrl_ADDR
+    OR DAT8 0b00001000
+    APBWRT ACC LCD_ADR LCD_ctrl_ADDR
+    
+    APBWRT DAT8 LCD_ADR LCD_pixels_X_ADDR 0
+    APBWRT DAT8 LCD_ADR LCD_pixels_Y_ADDR 0
+    APBWRT DAT8 LCD_ADR LCD_pixels_data_ADDR 0x0F
+    $clear_lcd
+    APBREAD LCD_ADR LCD_pixels_X_ADDR
+    INC
+    CMP DAT8 84
+    JUMP IFNOT ZERO $WRT_X_ADDR
+        APBREAD LCD_ADR LCD_pixels_Y_ADDR
+        INC
+        CMP DAT8 6
+        JUMP IFNOT ZERO $WRT_Y_ADDDR
+            LOAD DAT8 LCD_ADR
+            JUMP $Halt_Stuff
+        $WRT_Y_ADDDR
+        APBWRT ACC LCD_ADR LCD_pixels_Y_ADDR
+        LOAD DAT8 0
+    $WRT_X_ADDR
+    // writes 0 if = 84, or writes source + 1
+    APBWRT ACC LCD_ADR LCD_pixels_X_ADDR
+    APBWRT ACC LCD_ADR LCD_pixels_data_ADDR
+    JUMP $clear_lcd
+
+    $Halt_Stuff
+    // set LCD stop writing to both frame buffers
+    APBREAD LCD_ADR LCD_ctrl_ADDR
+    AND DAT8 0b11110111
+    APBWRT ACC LCD_ADR LCD_ctrl_ADDR
+    
+
+    APBWRT DAT8 FFT_ADR FFT_CTRL FFT_DAT_DONE_MASK
+
+
+    HALT

@@ -1,6 +1,7 @@
 # Smartfusion2_Oscilloscope
  An Oscilloscope with as much of the design contained within the FPGA as possible.
 
+!(Spectrum Analyzer System)[Oscilloscope\EXTRA%20FILES\Block%20Diagrams\Spect_Analyzer_Block_Diagram.png]
 
 ## Analog to Digital
 
@@ -28,18 +29,18 @@ The transformed data will be in complex number format. I'm expecting the time to
 
 [Dev Repo](https://github.com/PKazm/vhdl-experiments/tree/master/Complex_Magnitude)
 
-The output of the FFT will be fed into this core to determine the magnitude of the complex number; aka the absolute value. I've looked into the following methods to determine the complex magnitude of the FFT output:
+The output of the FFT will be fed into this core to determine the magnitude of the complex number; aka the absolute value. I've looked into the following methods used to determine the complex magnitude of the FFT output:
 * Pythagorean approach, based on a^2 + b^2 = c^2
 * Alpha Max plus Beta Min, based on the approximation Mag ~= Alpha * max(|I|, |Q|) + Beta * min(|I|, |Q|)
 * CORDIC, using the concept of zeroing out the phase (Q) and equating the magnitude with the real (I) component (notation is all over the place here).
 
 The Pythagorean approach is straight forward math and would probably be the most accurate. This involves using a single Math block to calculate A*A + B*B and something else to calculate sqrt(C). Given I have more than enough fabric resources for this project I investigated using the CoreLNSQRT IP Core provided by Microsemi. Due to the encrypted nature of the core and my license I am unable to synthesize or simulate this core with VHDL (my HDL of choice). So that's out. Bummer.
 
-Alpha Max plus Beta Min is very simple and work by selected Alpha and Beta constants before hand and performing the previously mentioned equation. This is very easy and fast with the available hardware but produces the least accurate approximation. The error is apparently within acceptable ranges for many applications so it would 100% work for mine, but I still have room to improve, so I will.
+Alpha Max plus Beta Min is very simple and works by selecting Alpha and Beta constants before hand and performing the previously mentioned equation. This is very easy and fast with the available hardware. The error is apparently within acceptable ranges for many applications so it would 100% work for mine, but I still have resources for "better" solutions.
 
-CORDIC uses a ping-pong approximation approach in which the input values are manipulated to appear in a specific quadrant of the complex plane and then rotated above and below j=0 by adding and subtracting successively small rotations according to a prescribed algorithm. The results become more accurate with each iteration. The core provided for this function by Microsemi is not encrypted and I am able to use within my project (yay).
+CORDIC uses a ping-pong approximation approach in which the input values are manipulated to appear in a specific quadrant of the complex plane and then rotated above and below j=0 by adding and subtracting successively small rotations according to a prescribed algorithm. The results become more accurate with each iteration. The core provided for this function by Microsemi is not encrypted and I am able to use it within my project (yay). Or I would've except while testing to Core to integrate it into my project, I found almost all the outputs to be inaccurate. With the Core set to "Rectangular to Polar" mode, 2 inputs will be "graphed" onto the complex plain and then rotated until j=0. The result would be the phase (or change in phase) and the position along the X axis which directly correlates to the magnitude (with a gain as a result of the algorithm). When entering the values 6 and 6, the result was 18, when entering 7 and 7, the result was 9...
 
-I will use the CORDIC method as it seems like it will provide higher quality results and give me experience using the core.
+I chose the Alpha Max plus Beta Min approach.
 
 The transformed and absolute valued sample blocks will be sent either to the LCD to view the frequency spectrum, or used by other logic to determine the carrier frequency of the analog signal and scale the displayed data accordingly.
 
@@ -48,6 +49,15 @@ The transformed and absolute valued sample blocks will be sent either to the LCD
 While the FFT results should give proper scaling, they provide no method to lock in a signal and prevent it from walking across the screen. This core will provide that functionality.
 
 This core is not yet written.
+
+## Pixel Bar Creator
+
+This is a simple component that takes an unsigned value of any length and converts it to a line of pixels where the number of "on" pixels is related to the value of the entered number compared to its possible maximum. An example is a single column in a visual equalizer used in audio systems.
+
+E.g.
+
+8 bit value of 127 is exactly half of the maximum 8 bit value of 255, therefore the lower half of the pixel bar will be "on".
+value of 63 would correspond with the lower 1/4 of the pixel bar being "on".
 
 ## LCD display
 

@@ -1,0 +1,1405 @@
+#Build: Synplify Pro (R) N-2018.03M-SP1-1, Build 209R, Oct 23 2018
+#install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: PHOENIX136DESKY
+
+# Sat Mar 14 02:08:02 2020
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+
+@N|Running in 64-bit mode
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys VHDL Compiler, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+
+@N|Running in 64-bit mode
+@N:"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\Spectrum_Analyzer\Spectrum_Analyzer.vhd":17:7:17:23|Top entity is set to Spectrum_Analyzer.
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\iram512x9_rtl.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\misc.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ram128x8_smartfusion2.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ram256x16_rtl.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ram256x8_rtl.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\components.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\DPSRAM_C0\DPSRAM_C0_0\DPSRAM_C0_DPSRAM_C0_0_DPSRAM.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Package.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0_0\HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Twiddle_table.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd\math_real.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1_0\HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Pixelbar_Creator.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Power_On_Reset_Delay.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Averaging_Filter.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\timer.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\acmtable.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\instructnvm_bb.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\instructram.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\textio.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\debugblk.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\instructions.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ramblocks.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\CoreAPB3_C0\CoreAPB3_C0.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\FCCC_C0\FCCC_C0.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\DPSRAM_C0\DPSRAM_C0.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Sample_Loader.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Butterfly_HW_MATHDSP.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Transformer.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Sample_Outputer.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Alpha_Max_plus_Beta_Min.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Result_to_Pixel_Bar.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\OSC_C0\OSC_C0.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Sigma_Delta_LVDS_ADC.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\Spectrum_Analyzer\Spectrum_Analyzer.vhd changed - recompiling
+VHDL syntax check successful!
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\FCCC_C0\FCCC_C0.vhd changed - recompiling
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\Spectrum_Analyzer\Spectrum_Analyzer.vhd changed - recompiling
+@N: CD231 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\Spectrum_Analyzer\Spectrum_Analyzer.vhd":17:7:17:23|Synthesizing work.spectrum_analyzer.rtl.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":492:10:492:19|Synthesizing smartfusion2.inbuf_diff.syn_black_box.
+Post processing for smartfusion2.inbuf_diff.syn_black_box
+Running optimization stage 1 on INBUF_DIFF .......
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\timer.vhd":6:7:6:11|Synthesizing work.timer.architecture_timer.
+Post processing for work.timer.architecture_timer
+Running optimization stage 1 on timer .......
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":790:10:790:17|Synthesizing smartfusion2.sysreset.syn_black_box.
+Post processing for smartfusion2.sysreset.syn_black_box
+Running optimization stage 1 on SYSRESET .......
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Sigma_Delta_LVDS_ADC.vhd":24:7:24:26|Synthesizing work.sigma_delta_lvds_adc.architecture_sigma_delta_lvds_adc.
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\timer.vhd":6:7:6:11|Synthesizing work.timer.architecture_timer.
+Post processing for work.timer.architecture_timer
+Running optimization stage 1 on timer .......
+@W: CL169 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\timer.vhd":32:12:32:13|Pruning unused register counter_2(0). Make sure that there are no unused intermediate registers.
+Post processing for work.sigma_delta_lvds_adc.architecture_sigma_delta_lvds_adc
+Running optimization stage 1 on Sigma_Delta_LVDS_ADC .......
+@A: CL282 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Sigma_Delta_LVDS_ADC.vhd":111:8:111:9|Feedback mux created for signal sample_CLK_last. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Power_On_Reset_Delay.vhd":24:7:24:26|Synthesizing work.power_on_reset_delay.architecture_power_on_reset_delay.
+Post processing for work.power_on_reset_delay.architecture_power_on_reset_delay
+Running optimization stage 1 on Power_On_Reset_Delay .......
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\OSC_C0\OSC_C0.vhd":17:7:17:12|Synthesizing work.osc_c0.rtl.
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd":8:7:8:25|Synthesizing work.osc_c0_osc_c0_0_osc.def_arch.
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch.
+Post processing for work.rcosc_25_50mhz.def_arch
+Running optimization stage 1 on RCOSC_25_50MHZ .......
+Post processing for work.osc_c0_osc_c0_0_osc.def_arch
+Running optimization stage 1 on OSC_C0_OSC_C0_0_OSC .......
+@W: CL240 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd":16:10:16:19|Signal XTLOSC_O2F is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd":15:10:15:19|Signal XTLOSC_CCC is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd":14:10:14:23|Signal RCOSC_1MHZ_O2F is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd":13:10:13:23|Signal RCOSC_1MHZ_CCC is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd":12:10:12:27|Signal RCOSC_25_50MHZ_O2F is floating; a simulation mismatch is possible.
+Post processing for work.osc_c0.rtl
+Running optimization stage 1 on OSC_C0 .......
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":24:7:24:22|Synthesizing work.nokia5110_driver.architecture_nokia5110_driver.
+@N: CD233 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":93:27:93:28|Using sequential encoding for type lcd_state_machine.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":161:11:161:26|Signal mem_addr_updated is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":177:11:177:27|Signal usram2_a_addr_sig is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":180:11:180:27|Signal usram2_b_addr_sig is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":183:11:183:26|Signal usram2_c_blk_sig is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":184:11:184:27|Signal usram2_c_addr_sig is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":185:11:185:26|Signal usram2_c_din_sig is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\timer.vhd":6:7:6:11|Synthesizing work.timer.architecture_timer.
+Post processing for work.timer.architecture_timer
+Running optimization stage 1 on timer .......
+Post processing for work.nokia5110_driver.architecture_nokia5110_driver
+Running optimization stage 1 on Nokia5110_Driver .......
+@N: CL134 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":156:11:156:14|Found RAM mem2, depth=504, width=8
+@N: CL134 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":156:11:156:14|Found RAM mem2, depth=504, width=8
+@N: CL134 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":155:11:155:13|Found RAM mem, depth=504, width=8
+@N: CL134 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":155:11:155:13|Found RAM mem, depth=504, width=8
+@A: CL282 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":410:8:410:9|Feedback mux created for signal LCD_reg_mem_data[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@W: CL177 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":166:78:166:78|Sharing sequential element uSRAM_C_ADDR_sig. Add a syn_preserve attribute to the element to prevent sharing.
+@A: CL282 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":500:8:500:9|Feedback mux created for signal SPICLK_last_sig. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":136:42:136:44|Feedback mux created for signal timer_indicator_last_sig. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@W: CL190 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":430:8:430:9|Optimizing register bit LCD_reg_mem_X(7) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":446:8:446:9|Optimizing register bit LCD_reg_mem_Y(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":446:8:446:9|Optimizing register bit LCD_reg_mem_Y(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":446:8:446:9|Optimizing register bit LCD_reg_mem_Y(5) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":446:8:446:9|Optimizing register bit LCD_reg_mem_Y(6) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":446:8:446:9|Optimizing register bit LCD_reg_mem_Y(7) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":430:8:430:9|Pruning register bit 7 of LCD_reg_mem_X(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":446:8:446:9|Pruning register bits 7 to 3 of LCD_reg_mem_Y(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Result_to_Pixel_Bar.vhd":26:7:26:29|Synthesizing work.fft_result_to_pixel_bar.architecture_fft_result_to_pixel_bar.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Result_to_Pixel_Bar.vhd":145:11:145:35|Signal ampbm_0_assoc_adr_out_sig is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Pixelbar_Creator.vhd":24:7:24:22|Synthesizing work.pixelbar_creator.architecture_pixelbar_creator.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Pixelbar_Creator.vhd":64:11:64:18|Signal ctrl_reg is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.pixelbar_creator.architecture_pixelbar_creator
+Running optimization stage 1 on Pixelbar_Creator .......
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Alpha_Max_plus_Beta_Min.vhd":26:7:26:29|Synthesizing work.alpha_max_plus_beta_min.architecture_alpha_max_plus_beta_min.
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.vhd":17:7:17:25|Synthesizing work.hard_mult_addsub_c1.rtl.
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1_0\HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.vhd":8:7:8:64|Synthesizing work.hard_mult_addsub_c1_hard_mult_addsub_c1_0_hard_mult_addsub.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":582:10:582:12|Synthesizing smartfusion2.vcc.syn_black_box.
+Post processing for smartfusion2.vcc.syn_black_box
+Running optimization stage 1 on VCC .......
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":576:10:576:12|Synthesizing smartfusion2.gnd.syn_black_box.
+Post processing for smartfusion2.gnd.syn_black_box
+Running optimization stage 1 on GND .......
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":706:10:706:13|Synthesizing smartfusion2.macc.syn_black_box.
+Post processing for smartfusion2.macc.syn_black_box
+Running optimization stage 1 on MACC .......
+Post processing for work.hard_mult_addsub_c1_hard_mult_addsub_c1_0_hard_mult_addsub.def_arch
+Running optimization stage 1 on HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB .......
+Post processing for work.hard_mult_addsub_c1.rtl
+Running optimization stage 1 on HARD_MULT_ADDSUB_C1 .......
+Post processing for work.alpha_max_plus_beta_min.architecture_alpha_max_plus_beta_min
+Running optimization stage 1 on Alpha_Max_plus_Beta_Min .......
+Post processing for work.fft_result_to_pixel_bar.architecture_fft_result_to_pixel_bar
+Running optimization stage 1 on FFT_Result_to_Pixel_Bar .......
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT.vhd":26:7:26:9|Synthesizing work.fft.architecture_fft.
+@N: CD233 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT.vhd":288:27:288:28|Using sequential encoding for type hot_potato_states.
+@N: CD604 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT.vhd":390:16:390:29|OTHERS clause is not synthesized.
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\DPSRAM_C0\DPSRAM_C0.vhd":17:7:17:15|Synthesizing work.dpsram_c0.rtl.
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\DPSRAM_C0\DPSRAM_C0_0\DPSRAM_C0_DPSRAM_C0_0_DPSRAM.vhd":8:7:8:34|Synthesizing work.dpsram_c0_dpsram_c0_0_dpsram.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":588:10:588:16|Synthesizing smartfusion2.ram1k18.syn_black_box.
+Post processing for smartfusion2.ram1k18.syn_black_box
+Running optimization stage 1 on RAM1K18 .......
+Post processing for work.dpsram_c0_dpsram_c0_0_dpsram.def_arch
+Running optimization stage 1 on DPSRAM_C0_DPSRAM_C0_0_DPSRAM .......
+Post processing for work.dpsram_c0.rtl
+Running optimization stage 1 on DPSRAM_C0 .......
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Transformer.vhd":26:7:26:21|Synthesizing work.fft_transformer.architecture_fft_transformer.
+@N: CD233 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Transformer.vhd":63:22:63:23|Using sequential encoding for type stage_states.
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Butterfly_HW_MATHDSP.vhd":29:7:29:30|Synthesizing work.fft_butterfly_hw_mathdsp.architecture_fft_butterfly_hw_mathdsp.
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0.vhd":17:7:17:25|Synthesizing work.hard_mult_addsub_c0.rtl.
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0_0\HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB.vhd":8:7:8:64|Synthesizing work.hard_mult_addsub_c0_hard_mult_addsub_c0_0_hard_mult_addsub.def_arch.
+Post processing for work.hard_mult_addsub_c0_hard_mult_addsub_c0_0_hard_mult_addsub.def_arch
+Running optimization stage 1 on HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB .......
+Post processing for work.hard_mult_addsub_c0.rtl
+Running optimization stage 1 on HARD_MULT_ADDSUB_C0 .......
+Post processing for work.fft_butterfly_hw_mathdsp.architecture_fft_butterfly_hw_mathdsp
+Running optimization stage 1 on FFT_Butterfly_HW_MATHDSP .......
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Twiddle_table.vhd":26:7:26:19|Synthesizing work.twiddle_table.architecture_twiddle_table.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Twiddle_table.vhd":198:11:198:13|Signal mem is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Twiddle_table.vhd":200:11:200:21|Signal mem_adr_cnt is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Twiddle_table.vhd":202:11:202:27|Signal twiddle_ready_sig is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Twiddle_table.vhd":204:11:204:17|Signal mem_adr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Twiddle_table.vhd":205:11:205:18|Signal mem_w_en is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Twiddle_table.vhd":206:11:206:19|Signal mem_dat_w is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Twiddle_table.vhd":207:11:207:19|Signal mem_dat_r is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.twiddle_table.architecture_twiddle_table
+Running optimization stage 1 on Twiddle_table .......
+Post processing for work.fft_transformer.architecture_fft_transformer
+Running optimization stage 1 on FFT_Transformer .......
+@W: CL169 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Transformer.vhd":357:8:357:9|Pruning unused register do_calc_ctrl_2. Make sure that there are no unused intermediate registers.
+@A: CL282 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Transformer.vhd":426:8:426:9|Feedback mux created for signal sampleB_adr[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Sample_Outputer.vhd":26:7:26:25|Synthesizing work.fft_sample_outputer.architecture_fft_sample_outputer.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Sample_Outputer.vhd":66:11:66:24|Signal output_en_sync is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Sample_Outputer.vhd":67:11:67:25|Signal output_adr_sync is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Sample_Outputer.vhd":68:11:68:26|Signal output_done_sync is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.fft_sample_outputer.architecture_fft_sample_outputer
+Running optimization stage 1 on FFT_Sample_Outputer .......
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Sample_Loader.vhd":38:7:38:23|Synthesizing work.fft_sample_loader.architecture_fft_sample_loader.
+@N: CD233 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Sample_Loader.vhd":77:21:77:22|Using sequential encoding for type load_states.
+@N: CD604 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Sample_Loader.vhd":244:16:244:29|OTHERS clause is not synthesized.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Sample_Loader.vhd":82:11:82:25|Signal input_w_en_sync is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Sample_Loader.vhd":83:11:83:31|Signal input_w_dat_real_sync is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Sample_Loader.vhd":84:11:84:31|Signal input_w_dat_imag_sync is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Sample_Loader.vhd":85:11:85:25|Signal input_done_sync is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Sample_Loader.vhd":112:11:112:24|Signal mem_adr_bitrev is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.fft_sample_loader.architecture_fft_sample_loader
+Running optimization stage 1 on FFT_Sample_Loader .......
+@W: CL190 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Sample_Loader.vhd":195:8:195:9|Optimizing register bit ram_w_en_sig(1) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Sample_Loader.vhd":195:8:195:9|Pruning register bit 1 of ram_w_en_sig(1 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Post processing for work.fft.architecture_fft
+Running optimization stage 1 on FFT .......
+@A: CL282 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT.vhd":326:8:326:9|Feedback mux created for signal i_comp_ram_ready. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\FCCC_C0\FCCC_C0.vhd":17:7:17:13|Synthesizing work.fccc_c0.rtl.
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.vhd":8:7:8:28|Synthesizing work.fccc_c0_fccc_c0_0_fccc.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":798:10:798:12|Synthesizing smartfusion2.ccc.syn_black_box.
+Post processing for smartfusion2.ccc.syn_black_box
+Running optimization stage 1 on CCC .......
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box.
+Post processing for smartfusion2.clkint.syn_black_box
+Running optimization stage 1 on CLKINT .......
+Post processing for work.fccc_c0_fccc_c0_0_fccc.def_arch
+Running optimization stage 1 on FCCC_C0_FCCC_C0_0_FCCC .......
+Post processing for work.fccc_c0.rtl
+Running optimization stage 1 on FCCC_C0 .......
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\CoreAPB3_C0\CoreAPB3_C0.vhd":20:7:20:17|Synthesizing work.coreapb3_c0.rtl.
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":34:7:34:14|Synthesizing coreapb3_lib.coreapb3.coreapb3_arch.
+@N: CD604 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":665:16:665:29|OTHERS clause is not synthesized.
+@W: CD434 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":1438:29:1438:38|Signal infill_upr in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":616:7:616:15|Signal ia_prdata is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd":33:7:33:23|Synthesizing coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch.
+Post processing for coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch
+Running optimization stage 1 on COREAPB3_MUXPTOB3 .......
+Post processing for coreapb3_lib.coreapb3.coreapb3_arch
+Running optimization stage 1 on CoreAPB3 .......
+Post processing for work.coreapb3_c0.rtl
+Running optimization stage 1 on CoreAPB3_C0 .......
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0.vhd":20:7:20:16|Synthesizing work.coreabc_c0.rtl.
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":58:7:58:37|Synthesizing coreabc_lib.coreabc_c0_coreabc_c0_0_coreabc.rtl.
+@N: CD233 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":223:13:223:14|Using sequential encoding for type ticycle.
+@W: CD434 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":613:8:613:18|Signal accumulator in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":613:20:613:27|Signal accum_in in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@N: CD604 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":665:4:665:18|OTHERS clause is not synthesized.
+@W: CD434 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":631:66:631:72|Signal product in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":776:8:776:14|Signal use_acm in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":776:28:776:34|Signal acmdata in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":795:8:795:11|Signal mux1 in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":795:18:795:28|Signal accumulator in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":795:30:795:39|Signal instr_data in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":822:8:822:19|Signal dataout_zreg in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@N: CD604 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":1001:27:1001:40|OTHERS clause is not synthesized.
+@W: CD434 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":1073:19:1073:28|Signal instr_scmd in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":1073:30:1073:38|Signal zregister in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":173:7:173:21|Signal dataout_zreg_zr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":215:7:215:12|Signal debug1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":216:7:216:12|Signal debug2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":217:7:217:21|Signal debugblk_resetn is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\instructions.vhd":31:7:31:42|Synthesizing coreabc_lib.coreabc_c0_coreabc_c0_0_instructions.rtl.
+Post processing for coreabc_lib.coreabc_c0_coreabc_c0_0_instructions.rtl
+Running optimization stage 1 on COREABC_C0_COREABC_C0_0_INSTRUCTIONS .......
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ramblocks.vhd":33:7:33:39|Synthesizing coreabc_lib.coreabc_c0_coreabc_c0_0_ramblocks.rtl.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ramblocks.vhd":52:7:52:9|Signal wdx is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ramblocks.vhd":53:7:53:9|Signal rdx is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ramblocks.vhd":54:7:54:9|Signal wdy is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ramblocks.vhd":55:7:55:9|Signal rdy is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ramblocks.vhd":63:7:63:14|Signal wen_r0c1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ramblocks.vhd":64:7:64:14|Signal wen_r0c2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ramblocks.vhd":65:7:65:14|Signal wen_r0c3 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ramblocks.vhd":67:7:67:14|Signal wen_r1c1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ramblocks.vhd":68:7:68:14|Signal wen_r1c2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ramblocks.vhd":69:7:69:14|Signal wen_r1c3 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ramblocks.vhd":72:7:72:13|Signal rd_r0c1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ramblocks.vhd":73:7:73:13|Signal rd_r0c2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ramblocks.vhd":74:7:74:13|Signal rd_r0c3 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ramblocks.vhd":76:7:76:13|Signal rd_r1c1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ramblocks.vhd":77:7:77:13|Signal rd_r1c2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ramblocks.vhd":78:7:78:13|Signal rd_r1c3 is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ram128x8_smartfusion2.vhd":23:7:23:38|Synthesizing coreabc_lib.coreabc_c0_coreabc_c0_0_ram128x8.rtl.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":629:10:629:17|Synthesizing smartfusion2.ram64x18.syn_black_box.
+Post processing for smartfusion2.ram64x18.syn_black_box
+Running optimization stage 1 on RAM64x18 .......
+Post processing for coreabc_lib.coreabc_c0_coreabc_c0_0_ram128x8.rtl
+Running optimization stage 1 on COREABC_C0_COREABC_C0_0_RAM128X8 .......
+Post processing for coreabc_lib.coreabc_c0_coreabc_c0_0_ramblocks.rtl
+Running optimization stage 1 on COREABC_C0_COREABC_C0_0_RAMBLOCKS .......
+Post processing for coreabc_lib.coreabc_c0_coreabc_c0_0_coreabc.rtl
+Running optimization stage 1 on COREABC_C0_COREABC_C0_0_COREABC .......
+@W: CL252 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":174:7:174:13|Bit 0 of signal PRODUCT is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":174:7:174:13|Bit 1 of signal PRODUCT is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":174:7:174:13|Bit 2 of signal PRODUCT is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":174:7:174:13|Bit 3 of signal PRODUCT is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":174:7:174:13|Bit 4 of signal PRODUCT is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":174:7:174:13|Bit 5 of signal PRODUCT is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":174:7:174:13|Bit 6 of signal PRODUCT is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":174:7:174:13|Bit 7 of signal PRODUCT is floating -- simulation mismatch possible.
+@W: CL169 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":869:2:869:3|Pruning unused register GETINST_6. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":869:2:869:3|Pruning unused register ZREGISTER_3(0). Make sure that there are no unused intermediate registers.
+@W: CL111 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":869:2:869:3|All reachable assignments to STKPTR(4) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":869:2:869:3|All reachable assignments to STKPTR(5) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":869:2:869:3|All reachable assignments to STKPTR(6) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":869:2:869:3|All reachable assignments to STKPTR(7) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL260 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":430:2:430:3|Pruning register bit 1 of INSTR_SLOT(1 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Post processing for work.coreabc_c0.rtl
+Running optimization stage 1 on COREABC_C0 .......
+@N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Averaging_Filter.vhd":24:7:24:22|Synthesizing work.averaging_filter.architecture_averaging_filter.
+@N: CD233 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Averaging_Filter.vhd":43:16:43:17|Using sequential encoding for type states.
+Post processing for work.averaging_filter.architecture_averaging_filter
+Running optimization stage 1 on Averaging_Filter .......
+Post processing for work.spectrum_analyzer.rtl
+Running optimization stage 1 on Spectrum_Analyzer .......
+Running optimization stage 2 on Averaging_Filter .......
+@N: CL135 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Averaging_Filter.vhd":72:8:72:9|Found sequential shift samples_mem with address depth of 4 words and data bit width of 8.
+@N: CL201 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Averaging_Filter.vhd":72:8:72:9|Trying to extract state machine for register filter_state.
+Extracted state machine for register filter_state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+Running optimization stage 2 on RAM64x18 .......
+Running optimization stage 2 on COREABC_C0_COREABC_C0_0_RAM128X8 .......
+Running optimization stage 2 on COREABC_C0_COREABC_C0_0_RAMBLOCKS .......
+Running optimization stage 2 on COREABC_C0_COREABC_C0_0_INSTRUCTIONS .......
+Running optimization stage 2 on COREABC_C0_COREABC_C0_0_COREABC .......
+@N: CL201 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":869:2:869:3|Trying to extract state machine for register ICYCLE.
+Extracted state machine for register ICYCLE
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":109:9:109:17|Input PSLVERR_M is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":120:9:120:18|Input INITDATVAL is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":121:9:121:16|Input INITDONE is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":122:9:122:16|Input INITADDR is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":123:9:123:16|Input INITDATA is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":126:9:126:14|Input PSEL_S is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":127:9:127:17|Input PENABLE_S is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":128:9:128:16|Input PWRITE_S is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":129:9:129:15|Input PADDR_S is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd":130:9:130:16|Input PWDATA_S is unused.
+Running optimization stage 2 on COREABC_C0 .......
+Running optimization stage 2 on COREAPB3_MUXPTOB3 .......
+Running optimization stage 2 on CoreAPB3 .......
+@W: CL246 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":78:0:78:4|Input port bits 31 to 12 of paddr(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":75:0:75:4|Input IADDR is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":76:0:76:6|Input PRESETN is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":77:0:77:3|Input PCLK is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":109:0:109:7|Input PRDATAS2 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":110:0:110:7|Input PRDATAS3 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":111:0:111:7|Input PRDATAS4 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":112:0:112:7|Input PRDATAS5 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":113:0:113:7|Input PRDATAS6 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":114:0:114:7|Input PRDATAS7 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":115:0:115:7|Input PRDATAS8 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":116:0:116:7|Input PRDATAS9 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":117:0:117:8|Input PRDATAS10 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":118:0:118:8|Input PRDATAS11 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":119:0:119:8|Input PRDATAS12 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":120:0:120:8|Input PRDATAS13 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":121:0:121:8|Input PRDATAS14 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":122:0:122:8|Input PRDATAS15 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":126:0:126:7|Input PREADYS2 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":127:0:127:7|Input PREADYS3 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":128:0:128:7|Input PREADYS4 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":129:0:129:7|Input PREADYS5 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":130:0:130:7|Input PREADYS6 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":131:0:131:7|Input PREADYS7 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":132:0:132:7|Input PREADYS8 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":133:0:133:7|Input PREADYS9 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":134:0:134:8|Input PREADYS10 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":135:0:135:8|Input PREADYS11 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":136:0:136:8|Input PREADYS12 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":137:0:137:8|Input PREADYS13 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":138:0:138:8|Input PREADYS14 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":139:0:139:8|Input PREADYS15 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":143:0:143:8|Input PSLVERRS2 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":144:0:144:8|Input PSLVERRS3 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":145:0:145:8|Input PSLVERRS4 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":146:0:146:8|Input PSLVERRS5 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":147:0:147:8|Input PSLVERRS6 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":148:0:148:8|Input PSLVERRS7 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":149:0:149:8|Input PSLVERRS8 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":150:0:150:8|Input PSLVERRS9 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":151:0:151:9|Input PSLVERRS10 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":152:0:152:9|Input PSLVERRS11 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":153:0:153:9|Input PSLVERRS12 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":154:0:154:9|Input PSLVERRS13 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":155:0:155:9|Input PSLVERRS14 is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":156:0:156:9|Input PSLVERRS15 is unused.
+Running optimization stage 2 on CoreAPB3_C0 .......
+Running optimization stage 2 on CLKINT .......
+Running optimization stage 2 on CCC .......
+Running optimization stage 2 on FCCC_C0_FCCC_C0_0_FCCC .......
+Running optimization stage 2 on FCCC_C0 .......
+Running optimization stage 2 on FFT_Sample_Loader .......
+@W: CL169 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Sample_Loader.vhd":195:8:195:9|Pruning unused register load_state_last(1 downto 0). Make sure that there are no unused intermediate registers.
+@N: CL201 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Sample_Loader.vhd":195:8:195:9|Trying to extract state machine for register load_state.
+Extracted state machine for register load_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Sample_Loader.vhd":69:4:69:12|Input ram_dat_r is unused.
+Running optimization stage 2 on FFT_Sample_Outputer .......
+@W: CL246 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Sample_Outputer.vhd":58:4:58:12|Input port bits 35 to 18 of ram_dat_r(35 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on Twiddle_table .......
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Twiddle_table.vhd":33:1:33:4|Input PCLK is unused.
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Twiddle_table.vhd":34:1:34:4|Input RSTn is unused.
+Running optimization stage 2 on HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB .......
+Running optimization stage 2 on HARD_MULT_ADDSUB_C0 .......
+Running optimization stage 2 on FFT_Butterfly_HW_MATHDSP .......
+@N: CL135 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Butterfly_HW_MATHDSP.vhd":386:16:386:30|Found sequential shift adr_b_pipe with address depth of 4 words and data bit width of 8.
+@N: CL135 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Butterfly_HW_MATHDSP.vhd":386:16:386:30|Found sequential shift adr_a_pipe with address depth of 4 words and data bit width of 8.
+@N: CL135 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Butterfly_HW_MATHDSP.vhd":386:16:386:30|Found sequential shift do_calc_pipe with address depth of 4 words and data bit width of 1.
+@W: CL260 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Butterfly_HW_MATHDSP.vhd":339:16:339:30|Pruning register bit 0 of imag_b_out_sum_slice(10 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Butterfly_HW_MATHDSP.vhd":339:16:339:30|Pruning register bit 0 of real_b_out_sum_slice(10 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on FFT_Transformer .......
+@N: CL135 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Transformer.vhd":357:8:357:9|Found sequential shift bf0_do_calc with address depth of 3 words and data bit width of 1.
+@N: CL201 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\FFT_Transformer.vhd":294:8:294:9|Trying to extract state machine for register stage_state.
+Extracted state machine for register stage_state
+State machine has 3 reachable states with original encodings of:
+   01
+   10
+   11
+Running optimization stage 2 on RAM1K18 .......
+Running optimization stage 2 on DPSRAM_C0_DPSRAM_C0_0_DPSRAM .......
+Running optimization stage 2 on DPSRAM_C0 .......
+Running optimization stage 2 on FFT .......
+Running optimization stage 2 on MACC .......
+Running optimization stage 2 on GND .......
+Running optimization stage 2 on VCC .......
+Running optimization stage 2 on HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB .......
+Running optimization stage 2 on HARD_MULT_ADDSUB_C1 .......
+Running optimization stage 2 on Alpha_Max_plus_Beta_Min .......
+@N: CL135 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Alpha_Max_plus_Beta_Min.vhd":128:12:128:13|Found sequential shift adr_pipe with address depth of 5 words and data bit width of 8.
+Running optimization stage 2 on Pixelbar_Creator .......
+Running optimization stage 2 on FFT_Result_to_Pixel_Bar .......
+Running optimization stage 2 on timerZ0 .......
+Running optimization stage 2 on Nokia5110_Driver .......
+@W: CL190 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":500:8:500:9|Optimizing register bit init_step(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":500:8:500:9|Pruning register bit 3 of init_step(3 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\hdl\Nokia5110_Driver.vhd":500:8:500:9|Trying to extract state machine for register LCD_State.
+Extracted state machine for register LCD_State
+State machine has 2 reachable states with original encodings of:
+   00
+   10
+Running optimization stage 2 on RCOSC_25_50MHZ .......
+Running optimization stage 2 on OSC_C0_OSC_C0_0_OSC .......
+@N: CL159 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd":10:10:10:12|Input XTL is unused.
+Running optimization stage 2 on OSC_C0 .......
+Running optimization stage 2 on Power_On_Reset_Delay .......
+Running optimization stage 2 on timerZ1 .......
+Running optimization stage 2 on Sigma_Delta_LVDS_ADC .......
+Running optimization stage 2 on SYSRESET .......
+Running optimization stage 2 on timerZ2 .......
+Running optimization stage 2 on INBUF_DIFF .......
+Running optimization stage 2 on Spectrum_Analyzer .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\synthesis\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 224MB peak: 231MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Sat Mar 14 02:08:04 2020
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+
+@N|Running in 64-bit mode
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\synthesis\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Mar 14 02:08:04 2020
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Sat Mar 14 02:08:04 2020
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Database state : C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\synthesis\synwork\|synthesis
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+
+@N|Running in 64-bit mode
+File C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\synthesis\synwork\Spectrum_Analyzer_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 75MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Mar 14 02:08:06 2020
+
+###########################################################]
+Premap Report
+
+# Sat Mar 14 02:08:06 2020
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys Generic Technology Pre-mapping, Version mapact, Build 2461R, Built Nov 29 2018 09:35:20
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+Reading constraint file: C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\designer\Spectrum_Analyzer\synthesis.fdc
+@N: MF284 |Setting synthesis effort to medium for the design
+@L: C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\synthesis\Spectrum_Analyzer_scck.rpt 
+Printing clock  summary report in "C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\synthesis\Spectrum_Analyzer_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 109MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@W: BN132 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\component\work\coreabc_c0\coreabc_c0_0\rtl\vhdl\core\coreabc.vhd":430:2:430:3|Removing sequential instance COREABC_C0_0.COREABC_C0_0.INSTR_SLOT[0] because it is equivalent to instance COREABC_C0_0.COREABC_C0_0.INSTR_MUXC. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: BN362 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\pixelbar_creator.vhd":135:2:135:3|Removing sequential instance Data_out_ready (in view: work.Pixelbar_Creator(architecture_pixelbar_creator)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\timer.vhd":47:12:47:13|Removing sequential instance timer_indic_sig (in view: work.timerZ0(architecture_timer)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\timer.vhd":47:12:47:13|Removing sequential instance timer_clock_out_sig (in view: work.timerZ2_0(architecture_timer)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\timer.vhd":47:12:47:13|Removing sequential instance timer_indic_sig (in view: work.timerZ2_1(architecture_timer)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\component\work\coreabc_c0\coreabc_c0_0\rtl\vhdl\core\coreabc.vhd":869:2:869:3|Removing sequential instance IO_OUT[0] (in view: coreabc_lib.COREABC_C0_COREABC_C0_0_COREABC(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\fft_sample_loader.vhd":195:8:195:9|Removing sequential instance input_w_ready_sig (in view: work.FFT_Sample_Loader(architecture_fft_sample_loader)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+syn_allowed_resources : blockrams=21  set on top level netlist Spectrum_Analyzer
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 145MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                             Requested     Requested     Clock        Clock                   Clock
+Level     Clock                                             Frequency     Period        Type         Group                   Load 
+----------------------------------------------------------------------------------------------------------------------------------
+0 -       System                                            100.0 MHz     10.000        system       system_clkgroup         0    
+                                                                                                                                  
+0 -       FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     1003 
+                                                                                                                                  
+0 -       timerZ1|timer_clock_out_sig_inferred_clock        100.0 MHz     10.000        inferred     Inferred_clkgroup_1     76   
+                                                                                                                                  
+0 -       timerZ0|timer_clock_out_sig_inferred_clock        100.0 MHz     10.000        inferred     Inferred_clkgroup_2     31   
+==================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                  Clock     Source                                                                     Clock Pin                                          Non-clock Pin                                   Non-clock Pin                                                                     
+Clock                                             Load      Pin                                                                        Seq Example                                        Seq Example                                     Comb Example                                                                      
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                            0         -                                                                          -                                                  -                                               -                                                                                 
+                                                                                                                                                                                                                                                                                                                            
+FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock     1003      FCCC_C0_0.FCCC_C0_0.CCC_INST.GL0(CCC)                                      timer_0.counter[18:0].C                            -                                               FCCC_C0_0.FCCC_C0_0.GL0_INST.I(BUFG)                                              
+                                                                                                                                                                                                                                                                                                                            
+timerZ1|timer_clock_out_sig_inferred_clock        76        Sigma_Delta_LVDS_ADC_0.Sample_CLK_timer.timer_clock_out_sig.Q[0](dffr)     Sigma_Delta_LVDS_ADC_0.analog_FF.C                 Sigma_Delta_LVDS_ADC_0.sample_CLK_last.D[0]     Sigma_Delta_LVDS_ADC_0.p_the_quantization_stuff\.pulse_accumulator_4[7:0].SEL(mux)
+                                                                                                                                                                                                                                                                                                                            
+timerZ0|timer_clock_out_sig_inferred_clock        31        Nokia5110_Driver_0.SPI_timer.timer_clock_out_sig.Q[0](dffre)               Nokia5110_Driver_0.LCD_timer.timer_indic_sig.C     Nokia5110_Driver_0.SPICLK_last_sig.D[0]         Nokia5110_Driver_0.un1_CLK_SPI_sig.I[0](inv)                                      
+============================================================================================================================================================================================================================================================================================================================
+
+@W: MT530 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\averaging_filter.vhd":72:8:72:9|Found inferred clock FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock which controls 1003 sequential elements including Averaging_Filter_0.samples_mem_3[7]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\sigma_delta_lvds_adc.vhd":111:8:111:9|Found inferred clock timerZ1|timer_clock_out_sig_inferred_clock which controls 76 sequential elements including Sigma_Delta_LVDS_ADC_0.pwm_quantized_value[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\timer.vhd":47:12:47:13|Found inferred clock timerZ0|timer_clock_out_sig_inferred_clock which controls 31 sequential elements including Nokia5110_Driver_0.LCD_timer.counter[18:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\synthesis\Spectrum_Analyzer.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 145MB)
+
+Encoding state machine filter_state[0:2] (in view: work.Averaging_Filter(architecture_averaging_filter))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine ICYCLE[0:3] (in view: coreabc_lib.COREABC_C0_COREABC_C0_0_COREABC(rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\component\work\coreabc_c0\coreabc_c0_0\rtl\vhdl\core\coreabc.vhd":869:2:869:3|There are no possible illegal states for state machine ICYCLE[0:3] (in view: coreabc_lib.COREABC_C0_COREABC_C0_0_COREABC(rtl)); safe FSM implementation is not required.
+Encoding state machine load_state[0:3] (in view: work.FFT_Sample_Loader(architecture_fft_sample_loader))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\fft_sample_loader.vhd":195:8:195:9|There are no possible illegal states for state machine load_state[0:3] (in view: work.FFT_Sample_Loader(architecture_fft_sample_loader)); safe FSM implementation is not required.
+Encoding state machine stage_state[0:2] (in view: work.FFT_Transformer(architecture_fft_transformer))
+original code -> new code
+   01 -> 00
+   10 -> 01
+   11 -> 10
+Encoding state machine LCD_State[0:1] (in view: work.Nokia5110_Driver(architecture_nokia5110_driver))
+original code -> new code
+   00 -> 0
+   10 -> 1
+@N: MO225 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":500:8:500:9|There are no possible illegal states for state machine LCD_State[0:1] (in view: work.Nokia5110_Driver(architecture_nokia5110_driver)); safe FSM implementation is not required.
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 146MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 59MB peak: 146MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Mar 14 02:08:08 2020
+
+###########################################################]
+Map & Optimize Report
+
+# Sat Mar 14 02:08:08 2020
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys Generic Technology Mapper, Version mapact, Build 2461R, Built Nov 29 2018 09:35:20
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 139MB)
+
+@N: BN362 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\timer.vhd":25:46:25:48|Removing sequential instance Sample_CLK_timer.timer_indic_sig (in view: work.Sigma_Delta_LVDS_ADC(architecture_sigma_delta_lvds_adc)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: FA239 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\coreapb3.vhd":648:12:648:15|ROM CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS_raw_5[1:0] (in view: work.Spectrum_Analyzer(rtl)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\coreapb3.vhd":648:12:648:15|ROM CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS_raw_5[1:0] (in view: work.Spectrum_Analyzer(rtl)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\coreapb3.vhd":648:12:648:15|Found ROM CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS_raw_5[1:0] (in view: work.Spectrum_Analyzer(rtl)) with 2 words by 2 bits.
+@W: BN132 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\fft.vhd":342:20:342:21|Removing user instance FFT_0.p_ram_hot_potato.tf_comp_ram_stable_2 because it is equivalent to instance FFT_0.p_ram_hot_potato.o_comp_ram_stable_2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\fft.vhd":326:8:326:9|Removing sequential instance FFT_0.tf_comp_ram_stable because it is equivalent to instance FFT_0.o_comp_ram_stable. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\fft.vhd":342:20:342:21|Removing user instance FFT_0.p_ram_hot_potato.o_comp_ram_stable_2 because it is equivalent to instance FFT_0.p_ram_hot_potato.i_comp_ram_stable_4. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\fft.vhd":326:8:326:9|Removing sequential instance FFT_0.o_comp_ram_stable because it is equivalent to instance FFT_0.i_comp_ram_stable. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\fft_transformer.vhd":357:8:357:9|User-specified initial value defined for instance FFT_0.FFT_Transformer_0.dft_cnt[6:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\fft_transformer.vhd":357:8:357:9|User-specified initial value defined for instance FFT_0.FFT_Transformer_0.bfly_cnt[6:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\fft_transformer.vhd":294:8:294:9|User-specified initial value defined for instance FFT_0.FFT_Transformer_0.stage_cnt[2:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\fft_result_to_pixel_bar.vhd":271:8:271:9|User-specified initial value defined for instance FFT_Result_to_Pixel_Bar_0.delay_cnt[2:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\pixelbar_creator.vhd":135:2:135:3|User-specified initial value defined for instance FFT_Result_to_Pixel_Bar_0.Pixelbar_Creator_0.pixel_array_sig[31:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\timer.vhd":47:12:47:13|User-specified initial value defined for instance Nokia5110_Driver_0.SPI_timer.timer_clock_out_sig is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\timer.vhd":47:12:47:13|User-specified initial value defined for instance Nokia5110_Driver_0.SPI_timer.counter[5:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\timer.vhd":47:12:47:13|User-specified initial value defined for instance Nokia5110_Driver_0.LCD_timer.counter[18:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\timer.vhd":47:12:47:13|User-specified initial value defined for instance Nokia5110_Driver_0.LCD_timer.timer_indic_sig is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":500:8:500:9|User-specified initial value defined for instance Nokia5110_Driver_0.SPIDO_sig is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":464:8:464:9|User-specified initial value defined for instance Nokia5110_Driver_0.uSRAM_A_ADDR_sig[8:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":500:8:500:9|User-specified initial value defined for instance Nokia5110_Driver_0.SPIout_byte[7:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":247:8:247:9|User-specified initial value defined for instance Nokia5110_Driver_0.prdata_sig[7:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":500:8:500:9|User-specified initial value defined for instance Nokia5110_Driver_0.uSRAM_B_ADDR_sig[8:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":500:8:500:9|User-specified initial value defined for instance Nokia5110_Driver_0.init_step[2:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":500:8:500:9|User-specified initial value defined for instance Nokia5110_Driver_0.frame_get_bit is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":500:8:500:9|User-specified initial value defined for instance Nokia5110_Driver_0.frame_count[2:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":500:8:500:9|User-specified initial value defined for instance Nokia5110_Driver_0.screen_finished is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":410:8:410:9|User-specified initial value defined for instance Nokia5110_Driver_0.LCD_reg_mem_data[7:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":500:8:500:9|User-specified initial value defined for instance Nokia5110_Driver_0.refresh_indicator is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":500:8:500:9|User-specified initial value defined for instance Nokia5110_Driver_0.data_command_sig is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":500:8:500:9|User-specified initial value defined for instance Nokia5110_Driver_0.frame_start is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":500:8:500:9|User-specified initial value defined for instance Nokia5110_Driver_0.data_command_queue_sig is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":500:8:500:9|User-specified initial value defined for instance Nokia5110_Driver_0.screen_send is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":446:8:446:9|User-specified initial value defined for instance Nokia5110_Driver_0.LCD_reg_mem_Y[2:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":430:8:430:9|User-specified initial value defined for instance Nokia5110_Driver_0.LCD_reg_mem_X[6:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":410:8:410:9|User-specified initial value defined for instance Nokia5110_Driver_0.uSRAM_C_DIN_sig[7:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":410:8:410:9|User-specified initial value defined for instance Nokia5110_Driver_0.uSRAM_C_BLK_sig is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":394:8:394:9|User-specified initial value defined for instance Nokia5110_Driver_0.LCD_reg_Vop_set[7:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":378:8:378:9|User-specified initial value defined for instance Nokia5110_Driver_0.LCD_reg_bias_sys[7:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":362:8:362:9|User-specified initial value defined for instance Nokia5110_Driver_0.LCD_reg_temp_ctrl[7:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":343:8:343:9|User-specified initial value defined for instance Nokia5110_Driver_0.LCD_reg_disp_ctrl[7:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":326:8:326:9|User-specified initial value defined for instance Nokia5110_Driver_0.LCD_reg_func_set[7:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":291:8:291:9|User-specified initial value defined for instance Nokia5110_Driver_0.Driver_reg_ctrl[7:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":500:8:500:9|User-specified initial value defined for instance Nokia5110_Driver_0.chip_enable_sig is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":643:12:643:13|User-specified initial value defined for instance Nokia5110_Driver_0.B_DOUT_sig[7:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":643:12:643:13|User-specified initial value defined for instance Nokia5110_Driver_0.A_DOUT_sig[7:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":500:8:500:9|User-specified initial value defined for instance Nokia5110_Driver_0.SPICLK_last_sig is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":136:42:136:44|User-specified initial value defined for instance Nokia5110_Driver_0.timer_indicator_last_sig is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\power_on_reset_delay.vhd":46:8:46:9|User-specified initial value defined for instance Power_On_Reset_Delay_0.delay_counter[13:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\sigma_delta_lvds_adc.vhd":111:8:111:9|User-specified initial value defined for instance Sigma_Delta_LVDS_ADC_0.sample_counter[7:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\timer.vhd":24:62:24:62|User-specified initial value defined for instance Sigma_Delta_LVDS_ADC_0.Sample_CLK_timer.timer_clock_out_sig is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\timer.vhd":47:12:47:13|User-specified initial value defined for instance timer_0.timer_clock_out_sig is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\timer.vhd":47:12:47:13|User-specified initial value defined for instance timer_0.counter[18:0] is being ignored due to limitations in architecture. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 140MB peak: 141MB)
+
+Encoding state machine filter_state[0:2] (in view: work.Averaging_Filter(architecture_averaging_filter))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine ICYCLE[0:3] (in view: coreabc_lib.COREABC_C0_COREABC_C0_0_COREABC(rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\component\work\coreabc_c0\coreabc_c0_0\rtl\vhdl\core\coreabc.vhd":869:2:869:3|There are no possible illegal states for state machine ICYCLE[0:3] (in view: coreabc_lib.COREABC_C0_COREABC_C0_0_COREABC(rtl)); safe FSM implementation is not required.
+@N: MO231 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\component\work\coreabc_c0\coreabc_c0_0\rtl\vhdl\core\coreabc.vhd":869:2:869:3|Found counter in view:coreabc_lib.COREABC_C0_COREABC_C0_0_COREABC(rtl) instance SMADDR[5:0] 
+Encoding state machine load_state[0:3] (in view: work.FFT_Sample_Loader(architecture_fft_sample_loader))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\fft_sample_loader.vhd":195:8:195:9|There are no possible illegal states for state machine load_state[0:3] (in view: work.FFT_Sample_Loader(architecture_fft_sample_loader)); safe FSM implementation is not required.
+@N: MO231 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\fft_sample_loader.vhd":195:8:195:9|Found counter in view:work.FFT_Sample_Loader(architecture_fft_sample_loader) instance ram_adr_start_sig[7:0] 
+@N: MO231 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\fft_sample_loader.vhd":195:8:195:9|Found counter in view:work.FFT_Sample_Loader(architecture_fft_sample_loader) instance mem_adr[7:0] 
+Encoding state machine stage_state[0:2] (in view: work.FFT_Transformer(architecture_fft_transformer))
+original code -> new code
+   01 -> 00
+   10 -> 01
+   11 -> 10
+@N: MO231 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\fft_transformer.vhd":357:8:357:9|Found counter in view:work.FFT_Transformer(architecture_fft_transformer) instance dft_cnt[6:0] 
+@N: MO231 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\fft_transformer.vhd":357:8:357:9|Found counter in view:work.FFT_Transformer(architecture_fft_transformer) instance bfly_cnt[6:0] 
+@W: MO160 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\fft_transformer.vhd":469:8:469:9|Register bit bf0_twiddle_sin_imag[8] (in view view:work.FFT_Transformer(architecture_fft_transformer)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\fft_transformer.vhd":294:8:294:9|Removing instance FFT_0.FFT_Transformer_0.stage_0_cur because it is equivalent to instance FFT_0.FFT_Transformer_0.dft_max[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\alpha_max_plus_beta_min.vhd":144:8:144:9|Removing sequential instance result[8] (in view: work.Alpha_Max_plus_Beta_Min(architecture_alpha_max_plus_beta_min)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+Encoding state machine LCD_State[0:1] (in view: work.Nokia5110_Driver(architecture_nokia5110_driver))
+original code -> new code
+   00 -> 0
+   10 -> 1
+@N: MO225 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":500:8:500:9|There are no possible illegal states for state machine LCD_State[0:1] (in view: work.Nokia5110_Driver(architecture_nokia5110_driver)); safe FSM implementation is not required.
+@N: FX403 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":155:11:155:13|Property "block_ram" or "no_rw_check" found for RAM mem_1[7:0] with specified coding style. Inferring block RAM.
+@N: FX403 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":156:11:156:14|Property "block_ram" or "no_rw_check" found for RAM mem2_1[7:0] with specified coding style. Inferring block RAM.
+@N: FX403 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":156:11:156:14|Property "block_ram" or "no_rw_check" found for RAM mem2_1[7:0] with specified coding style. Inferring block RAM.
+@N: FX403 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":156:11:156:14|Property "block_ram" or "no_rw_check" found for RAM mem2_1[7:0] with specified coding style. Inferring block RAM.
+@W: FX107 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":156:11:156:14|RAM mem2_1[7:0] (in view: work.Nokia5110_Driver(architecture_nokia5110_driver)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":156:11:156:14|RAM mem2[7:0] (in view: work.Nokia5110_Driver(architecture_nokia5110_driver)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX403 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":155:11:155:13|Property "block_ram" or "no_rw_check" found for RAM mem_1[7:0] with specified coding style. Inferring block RAM.
+@W: FX107 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":155:11:155:13|RAM mem_1[7:0] (in view: work.Nokia5110_Driver(architecture_nokia5110_driver)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":155:11:155:13|RAM mem[7:0] (in view: work.Nokia5110_Driver(architecture_nokia5110_driver)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: BN362 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":643:12:643:13|Removing sequential instance A_DOUT_sig[7] (in view: work.Nokia5110_Driver(architecture_nokia5110_driver)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":643:12:643:13|Removing sequential instance A_DOUT_sig[6] (in view: work.Nokia5110_Driver(architecture_nokia5110_driver)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":643:12:643:13|Removing sequential instance A_DOUT_sig[5] (in view: work.Nokia5110_Driver(architecture_nokia5110_driver)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":643:12:643:13|Removing sequential instance A_DOUT_sig[4] (in view: work.Nokia5110_Driver(architecture_nokia5110_driver)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":643:12:643:13|Removing sequential instance A_DOUT_sig[3] (in view: work.Nokia5110_Driver(architecture_nokia5110_driver)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":643:12:643:13|Removing sequential instance A_DOUT_sig[2] (in view: work.Nokia5110_Driver(architecture_nokia5110_driver)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":643:12:643:13|Removing sequential instance A_DOUT_sig[1] (in view: work.Nokia5110_Driver(architecture_nokia5110_driver)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":643:12:643:13|Removing sequential instance A_DOUT_sig[0] (in view: work.Nokia5110_Driver(architecture_nokia5110_driver)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":643:12:643:13|Removing sequential instance B_DOUT_sig[7] (in view: work.Nokia5110_Driver(architecture_nokia5110_driver)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":643:12:643:13|Removing sequential instance B_DOUT_sig[6] (in view: work.Nokia5110_Driver(architecture_nokia5110_driver)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":643:12:643:13|Removing sequential instance B_DOUT_sig[5] (in view: work.Nokia5110_Driver(architecture_nokia5110_driver)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":643:12:643:13|Removing sequential instance B_DOUT_sig[4] (in view: work.Nokia5110_Driver(architecture_nokia5110_driver)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":643:12:643:13|Removing sequential instance B_DOUT_sig[3] (in view: work.Nokia5110_Driver(architecture_nokia5110_driver)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":643:12:643:13|Removing sequential instance B_DOUT_sig[2] (in view: work.Nokia5110_Driver(architecture_nokia5110_driver)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":643:12:643:13|Removing sequential instance B_DOUT_sig[1] (in view: work.Nokia5110_Driver(architecture_nokia5110_driver)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":643:12:643:13|Removing sequential instance B_DOUT_sig[0] (in view: work.Nokia5110_Driver(architecture_nokia5110_driver)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@W: MO161 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":394:8:394:9|Register bit LCD_reg_Vop_set[7] (in view view:work.Nokia5110_Driver(architecture_nokia5110_driver)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":378:8:378:9|Register bit LCD_reg_bias_sys[7] (in view view:work.Nokia5110_Driver(architecture_nokia5110_driver)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":378:8:378:9|Register bit LCD_reg_bias_sys[6] (in view view:work.Nokia5110_Driver(architecture_nokia5110_driver)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":378:8:378:9|Register bit LCD_reg_bias_sys[5] (in view view:work.Nokia5110_Driver(architecture_nokia5110_driver)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":378:8:378:9|Register bit LCD_reg_bias_sys[4] (in view view:work.Nokia5110_Driver(architecture_nokia5110_driver)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":378:8:378:9|Register bit LCD_reg_bias_sys[3] (in view view:work.Nokia5110_Driver(architecture_nokia5110_driver)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":362:8:362:9|Register bit LCD_reg_temp_ctrl[7] (in view view:work.Nokia5110_Driver(architecture_nokia5110_driver)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":362:8:362:9|Register bit LCD_reg_temp_ctrl[6] (in view view:work.Nokia5110_Driver(architecture_nokia5110_driver)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":362:8:362:9|Register bit LCD_reg_temp_ctrl[5] (in view view:work.Nokia5110_Driver(architecture_nokia5110_driver)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":362:8:362:9|Register bit LCD_reg_temp_ctrl[4] (in view view:work.Nokia5110_Driver(architecture_nokia5110_driver)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":362:8:362:9|Register bit LCD_reg_temp_ctrl[3] (in view view:work.Nokia5110_Driver(architecture_nokia5110_driver)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":362:8:362:9|Register bit LCD_reg_temp_ctrl[2] (in view view:work.Nokia5110_Driver(architecture_nokia5110_driver)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":343:8:343:9|Register bit LCD_reg_disp_ctrl[7] (in view view:work.Nokia5110_Driver(architecture_nokia5110_driver)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":343:8:343:9|Register bit LCD_reg_disp_ctrl[6] (in view view:work.Nokia5110_Driver(architecture_nokia5110_driver)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":343:8:343:9|Register bit LCD_reg_disp_ctrl[5] (in view view:work.Nokia5110_Driver(architecture_nokia5110_driver)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":343:8:343:9|Register bit LCD_reg_disp_ctrl[4] (in view view:work.Nokia5110_Driver(architecture_nokia5110_driver)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":343:8:343:9|Register bit LCD_reg_disp_ctrl[3] (in view view:work.Nokia5110_Driver(architecture_nokia5110_driver)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":343:8:343:9|Register bit LCD_reg_disp_ctrl[1] (in view view:work.Nokia5110_Driver(architecture_nokia5110_driver)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":326:8:326:9|Register bit LCD_reg_func_set[7] (in view view:work.Nokia5110_Driver(architecture_nokia5110_driver)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":326:8:326:9|Register bit LCD_reg_func_set[6] (in view view:work.Nokia5110_Driver(architecture_nokia5110_driver)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":326:8:326:9|Register bit LCD_reg_func_set[5] (in view view:work.Nokia5110_Driver(architecture_nokia5110_driver)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":326:8:326:9|Register bit LCD_reg_func_set[4] (in view view:work.Nokia5110_Driver(architecture_nokia5110_driver)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\nokia5110_driver.vhd":326:8:326:9|Register bit LCD_reg_func_set[3] (in view view:work.Nokia5110_Driver(architecture_nokia5110_driver)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: MO231 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\power_on_reset_delay.vhd":46:8:46:9|Found counter in view:work.Power_On_Reset_Delay(architecture_power_on_reset_delay) instance delay_counter[13:0] 
+@N: MO231 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\sigma_delta_lvds_adc.vhd":111:8:111:9|Found counter in view:work.Sigma_Delta_LVDS_ADC(architecture_sigma_delta_lvds_adc) instance pulse_accumulator[7:0] 
+@N: MO231 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\sigma_delta_lvds_adc.vhd":111:8:111:9|Found counter in view:work.Sigma_Delta_LVDS_ADC(architecture_sigma_delta_lvds_adc) instance sample_counter[7:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 146MB)
+
+@W: BN132 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\component\work\coreabc_c0\coreabc_c0_0\rtl\vhdl\core\coreabc.vhd":430:2:430:3|Removing instance COREABC_C0_0.COREABC_C0_0.INSTR_DATA[7] because it is equivalent to instance COREABC_C0_0.COREABC_C0_0.INSTR_DATA[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 156MB peak: 157MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 153MB peak: 158MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 153MB peak: 158MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 153MB peak: 158MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 153MB peak: 158MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 156MB peak: 158MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 155MB peak: 158MB)
+
+@N: MO106 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\component\work\coreabc_c0\coreabc_c0_0\rtl\vhdl\core\instructions.vhd":112:3:112:6|Found ROM COREABC_C0_0.COREABC_C0_0.UROM\.UROM.INS_0[16:0] (in view: work.Spectrum_Analyzer(rtl)) with 59 words by 17 bits.
+@N: MO106 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\twiddle_table.vhd":215:37:215:46|Found ROM FFT_0.FFT_Transformer_0.Twiddle_table_0.sin_twid_1_0[16:0] (in view: work.Spectrum_Analyzer(rtl)) with 128 words by 17 bits.
+@W: BN132 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\hdl\fft_transformer.vhd":469:8:469:9|Removing instance FFT_0.FFT_Transformer_0.bf0_twiddle_cos_realreset[8] because it is equivalent to instance COREABC_C0_0.COREABC_C0_0.RSTSYNC1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished preparing to map (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 157MB peak: 158MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 198MB peak: 201MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:08s		    -0.60ns		2182 /       942
+   2		0h:00m:08s		     0.47ns		2019 /       942
+   3		0h:00m:08s		     0.88ns		2019 /       942
+@N: FP130 |Promoting Net Power_On_Reset_Delay_0_USER_FAB_RESET_OUT_N_i_i on CLKINT  I_780 
+@N: FP130 |Promoting Net Board_J7_c[3] on CLKINT  I_781 
+@N: FP130 |Promoting Net FFT_Result_to_Pixel_Bar_0.comp_rstn on CLKINT  I_782 
+@N: FP130 |Promoting Net Nokia5110_Driver_0.rstn_i_i on CLKINT  I_783 
+@N: FP130 |Promoting Net Nokia5110_Driver_0.CLK_SPI_sig on CLKINT  I_784 
+@N: FP130 |Promoting Net SYSRESET_0_POWER_ON_RESET_N on CLKINT  I_785 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 214MB peak: 216MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 216MB peak: 217MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+3 gated/generated clock tree(s) driving 980 clock pin(s) of sequential element(s)
+0 instances converted, 980 sequential instances remain driven by gated/generated clocks
+
+============================================================================================================================= Gated/Generated Clocks ==============================================================================================================================
+Clock Tree ID     Driving Element                                                 Drive Element Type     Fanout     Sample Instance                                  Explanation                                                                                                   
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       FCCC_C0_0.FCCC_C0_0.CCC_INST                                    CCC                    959        timer_0.counter[0]                               Illegal instance on clock path. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       Nokia5110_Driver_0.SPI_timer.timer_clock_out_sig                SLE                    20         Nokia5110_Driver_0.LCD_timer.timer_indic_sig     No generated or derived clock directive on output of sequential instance                                      
+@K:CKID0003       Sigma_Delta_LVDS_ADC_0.Sample_CLK_timer.timer_clock_out_sig     SLE                    1          Sigma_Delta_LVDS_ADC_0.analog_FF                 No generated or derived clock directive on output of sequential instance                                      
+===================================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:12s; Memory used current: 181MB peak: 217MB)
+
+Writing Analyst data base C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\synthesis\synwork\Spectrum_Analyzer_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:13s; Memory used current: 212MB peak: 217MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:14s; Memory used current: 208MB peak: 217MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:14s; Memory used current: 209MB peak: 217MB)
+
+@W: MT246 :"c:\users\phoenix136\dropbox\fpga\microsemi\oscilloscope\component\work\fccc_c0\fccc_c0_0\fccc_c0_fccc_c0_0_fccc.vhd":106:4:106:11|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net FCCC_C0_0.FCCC_C0_0.GL0_net.
+@W: MT420 |Found inferred clock timerZ1|timer_clock_out_sig_inferred_clock with period 10.00ns. Please declare a user-defined clock on net Sigma_Delta_LVDS_ADC_0.Sample_CLK_timer.sample_CLK.
+@W: MT420 |Found inferred clock timerZ0|timer_clock_out_sig_inferred_clock with period 10.00ns. Please declare a user-defined clock on net Nokia5110_Driver_0.SPI_timer.timer_clock_out_sig.
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Mar 14 02:08:23 2020
+#
+
+
+Top view:               Spectrum_Analyzer
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\designer\Spectrum_Analyzer\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 1.757
+
+                                                  Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock                                    Frequency     Frequency     Period        Period        Slack     Type         Group              
+----------------------------------------------------------------------------------------------------------------------------------------------------
+FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock     100.0 MHz     121.3 MHz     10.000        8.243         1.757     inferred     Inferred_clkgroup_0
+timerZ0|timer_clock_out_sig_inferred_clock        100.0 MHz     290.7 MHz     10.000        3.440         6.560     inferred     Inferred_clkgroup_2
+timerZ1|timer_clock_out_sig_inferred_clock        100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_1
+System                                            100.0 MHz     895.2 MHz     10.000        1.117         8.883     system       system_clkgroup    
+====================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                        |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                       Ending                                         |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                         System                                         |  10.000      8.883  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                         FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock  |  10.000      7.853  |  No paths    -      |  No paths    -      |  No paths    -    
+FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock  FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock  |  10.000      1.757  |  No paths    -      |  No paths    -      |  No paths    -    
+FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock  timerZ1|timer_clock_out_sig_inferred_clock     |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+timerZ1|timer_clock_out_sig_inferred_clock     FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+timerZ0|timer_clock_out_sig_inferred_clock     FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+timerZ0|timer_clock_out_sig_inferred_clock     timerZ0|timer_clock_out_sig_inferred_clock     |  10.000      6.560  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                     Starting                                                                                       Arrival          
+Instance                                                             Reference                                         Type         Pin           Net               Time        Slack
+                                                                     Clock                                                                                                           
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+COREABC_C0_0.COREABC_C0_0.UROM\.UROM.INS_0_dreg[5]                   FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock     SLE          Q             INSTR_SCMD[2]     0.108       1.757
+COREABC_C0_0.COREABC_C0_0.UROM\.UROM.INS_0_dreg[4]                   FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock     SLE          Q             INSTR_SCMD[1]     0.108       1.771
+COREABC_C0_0.COREABC_C0_0.UROM\.UROM.INS_0_dreg[1]                   FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock     SLE          Q             INSTR_CMD[1]      0.108       2.304
+COREABC_C0_0.COREABC_C0_0.URAM\.UR.UG4\.UR8\.ram_r1c0.U_RAM64x18     FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock     RAM64x18     A_DOUT[2]     RD_r1c0[2]        1.747       2.396
+COREABC_C0_0.COREABC_C0_0.URAM\.UR.UG4\.UR8\.ram_r1c0.U_RAM64x18     FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock     RAM64x18     A_DOUT[4]     RD_r1c0[4]        1.747       2.464
+COREABC_C0_0.COREABC_C0_0.URAM\.UR.UG4\.UR8\.ram_r0c0.U_RAM64x18     FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock     RAM64x18     A_DOUT[2]     RD_r0c0[2]        1.747       2.518
+COREABC_C0_0.COREABC_C0_0.UROM\.UROM.INS_0_dreg[0]                   FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock     SLE          Q             INSTR_CMD[0]      0.108       2.555
+COREABC_C0_0.COREABC_C0_0.URAM\.UR.UG4\.UR8\.ram_r0c0.U_RAM64x18     FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock     RAM64x18     A_DOUT[4]     RD_r0c0[4]        1.747       2.586
+COREABC_C0_0.COREABC_C0_0.UROM\.UROM.INS_0_dreg[2]                   FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock     SLE          Q             INSTR_CMD[2]      0.108       2.596
+COREABC_C0_0.COREABC_C0_0.URAM\.UR.UG4\.UR8\.ram_r1c0.U_RAM64x18     FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock     RAM64x18     A_DOUT[1]     RD_r1c0[1]        1.747       2.644
+=====================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                             Starting                                                                                  Required          
+Instance                                     Reference                                         Type     Pin     Net                    Time         Slack
+                                             Clock                                                                                                       
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+COREABC_C0_0.COREABC_C0_0.ISR_ACCUM_ZERO     FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock     SLE      D       un1_std_accum_zero     9.745        1.757
+COREABC_C0_0.COREABC_C0_0.STD_ACCUM_ZERO     FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock     SLE      D       un1_std_accum_zero     9.745        1.757
+COREABC_C0_0.COREABC_C0_0.ACCUMULATOR[7]     FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock     SLE      D       ACCUM_NEXT[7]          9.745        2.688
+COREABC_C0_0.COREABC_C0_0.ISR_ACCUM_NEG      FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock     SLE      D       ACCUM_NEXT[7]          9.745        2.688
+COREABC_C0_0.COREABC_C0_0.STD_ACCUM_NEG      FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock     SLE      D       ACCUM_NEXT[7]          9.745        2.688
+FFT_0.FFT_Transformer_0.bfly_cnt[0]          FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock     SLE      EN      un1_ram_stable_6_i     9.662        2.939
+FFT_0.FFT_Transformer_0.bfly_cnt[1]          FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock     SLE      EN      un1_ram_stable_6_i     9.662        2.939
+FFT_0.FFT_Transformer_0.bfly_cnt[2]          FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock     SLE      EN      un1_ram_stable_6_i     9.662        2.939
+FFT_0.FFT_Transformer_0.bfly_cnt[3]          FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock     SLE      EN      un1_ram_stable_6_i     9.662        2.939
+FFT_0.FFT_Transformer_0.bfly_cnt[4]          FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock     SLE      EN      un1_ram_stable_6_i     9.662        2.939
+=========================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      7.988
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     1.757
+
+    Number of logic level(s):                7
+    Starting point:                          COREABC_C0_0.COREABC_C0_0.UROM\.UROM.INS_0_dreg[5] / Q
+    Ending point:                            COREABC_C0_0.COREABC_C0_0.ISR_ACCUM_ZERO / D
+    The start point is clocked by            FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                  Pin      Pin               Arrival     No. of    
+Name                                                   Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------
+COREABC_C0_0.COREABC_C0_0.UROM\.UROM.INS_0_dreg[5]     SLE      Q        Out     0.108     0.108       -         
+INSTR_SCMD[2]                                          Net      -        -       1.135     -           15        
+COREABC_C0_0.COREABC_C0_0.accum_next8_0_o3             CFG2     B        In      -         1.244       -         
+COREABC_C0_0.COREABC_C0_0.accum_next8_0_o3             CFG2     Y        Out     0.148     1.392       -         
+N_87                                                   Net      -        -       1.290     -           32        
+COREABC_C0_0.COREABC_C0_0.ACCUM_NEXT_m0s2              CFG4     B        In      -         2.682       -         
+COREABC_C0_0.COREABC_C0_0.ACCUM_NEXT_m0s2              CFG4     Y        Out     0.143     2.825       -         
+ACCUM_NEXT_m0s2                                        Net      -        -       1.102     -           11        
+COREABC_C0_0.COREABC_C0_0.ACCUM_NEXT_m1s2              CFG4     D        In      -         3.927       -         
+COREABC_C0_0.COREABC_C0_0.ACCUM_NEXT_m1s2              CFG4     Y        Out     0.288     4.215       -         
+ACCUM_NEXT_m1s2                                        Net      -        -       1.135     -           15        
+COREABC_C0_0.COREABC_C0_0.ACCUM_NEXT_RNO_0[2]          CFG4     D        In      -         5.350       -         
+COREABC_C0_0.COREABC_C0_0.ACCUM_NEXT_RNO_0[2]          CFG4     Y        Out     0.326     5.676       -         
+ACCUM_NEXT_1[2]                                        Net      -        -       0.248     -           1         
+COREABC_C0_0.COREABC_C0_0.ACCUM_NEXT[2]                CFG4     D        In      -         5.925       -         
+COREABC_C0_0.COREABC_C0_0.ACCUM_NEXT[2]                CFG4     Y        Out     0.326     6.251       -         
+ACCUM_NEXT[2]                                          Net      -        -       0.497     -           2         
+COREABC_C0_0.COREABC_C0_0.un1_std_accum_zero_4         CFG4     C        In      -         6.748       -         
+COREABC_C0_0.COREABC_C0_0.un1_std_accum_zero_4         CFG4     Y        Out     0.223     6.971       -         
+un1_std_accum_zero_4                                   Net      -        -       0.248     -           1         
+COREABC_C0_0.COREABC_C0_0.un1_std_accum_zero           CFG4     D        In      -         7.220       -         
+COREABC_C0_0.COREABC_C0_0.un1_std_accum_zero           CFG4     Y        Out     0.271     7.491       -         
+un1_std_accum_zero                                     Net      -        -       0.497     -           2         
+COREABC_C0_0.COREABC_C0_0.ISR_ACCUM_ZERO               SLE      D        In      -         7.988       -         
+=================================================================================================================
+Total path delay (propagation time + setup) of 8.243 is 2.090(25.4%) logic and 6.153(74.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: timerZ0|timer_clock_out_sig_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                             Starting                                                                        Arrival          
+Instance                                     Reference                                      Type     Pin     Net             Time        Slack
+                                             Clock                                                                                            
+----------------------------------------------------------------------------------------------------------------------------------------------
+Nokia5110_Driver_0.LCD_timer.counter[14]     timerZ0|timer_clock_out_sig_inferred_clock     SLE      Q       counter[14]     0.087       6.560
+Nokia5110_Driver_0.LCD_timer.counter[16]     timerZ0|timer_clock_out_sig_inferred_clock     SLE      Q       counter[16]     0.108       6.656
+Nokia5110_Driver_0.LCD_timer.counter[17]     timerZ0|timer_clock_out_sig_inferred_clock     SLE      Q       counter[17]     0.108       6.701
+Nokia5110_Driver_0.LCD_timer.counter[18]     timerZ0|timer_clock_out_sig_inferred_clock     SLE      Q       counter[18]     0.108       6.778
+Nokia5110_Driver_0.LCD_timer.counter[0]      timerZ0|timer_clock_out_sig_inferred_clock     SLE      Q       counter[0]      0.108       6.820
+Nokia5110_Driver_0.LCD_timer.counter[11]     timerZ0|timer_clock_out_sig_inferred_clock     SLE      Q       counter[11]     0.087       6.973
+Nokia5110_Driver_0.LCD_timer.counter[12]     timerZ0|timer_clock_out_sig_inferred_clock     SLE      Q       counter[12]     0.087       7.073
+Nokia5110_Driver_0.LCD_timer.counter[5]      timerZ0|timer_clock_out_sig_inferred_clock     SLE      Q       counter[5]      0.087       7.096
+Nokia5110_Driver_0.LCD_timer.counter[1]      timerZ0|timer_clock_out_sig_inferred_clock     SLE      Q       counter[1]      0.108       7.146
+Nokia5110_Driver_0.LCD_timer.counter[4]      timerZ0|timer_clock_out_sig_inferred_clock     SLE      Q       counter[4]      0.108       7.191
+==============================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                 Starting                                                                                  Required          
+Instance                                         Reference                                      Type     Pin     Net                       Time         Slack
+                                                 Clock                                                                                                       
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Nokia5110_Driver_0.LCD_timer.counter[5]          timerZ0|timer_clock_out_sig_inferred_clock     SLE      D       counter_3[5]              9.745        6.560
+Nokia5110_Driver_0.LCD_timer.counter[8]          timerZ0|timer_clock_out_sig_inferred_clock     SLE      D       counter_3[8]              9.745        6.560
+Nokia5110_Driver_0.LCD_timer.counter[13]         timerZ0|timer_clock_out_sig_inferred_clock     SLE      D       counter_3[13]             9.745        6.560
+Nokia5110_Driver_0.LCD_timer.counter[15]         timerZ0|timer_clock_out_sig_inferred_clock     SLE      D       counter_3[15]             9.745        6.560
+Nokia5110_Driver_0.LCD_timer.counter[16]         timerZ0|timer_clock_out_sig_inferred_clock     SLE      D       counter_3[16]             9.745        6.560
+Nokia5110_Driver_0.LCD_timer.counter[17]         timerZ0|timer_clock_out_sig_inferred_clock     SLE      D       counter_3[17]             9.745        6.560
+Nokia5110_Driver_0.LCD_timer.counter[18]         timerZ0|timer_clock_out_sig_inferred_clock     SLE      D       counter_3[18]             9.745        6.560
+Nokia5110_Driver_0.LCD_timer.timer_indic_sig     timerZ0|timer_clock_out_sig_inferred_clock     SLE      D       un2_counter               9.745        6.912
+Nokia5110_Driver_0.LCD_timer.counter[14]         timerZ0|timer_clock_out_sig_inferred_clock     SLE      D       un11_counter_cry_14_S     9.745        8.157
+Nokia5110_Driver_0.LCD_timer.counter[12]         timerZ0|timer_clock_out_sig_inferred_clock     SLE      D       un11_counter_cry_12_S     9.745        8.190
+=============================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      3.185
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 6.560
+
+    Number of logic level(s):                4
+    Starting point:                          Nokia5110_Driver_0.LCD_timer.counter[14] / Q
+    Ending point:                            Nokia5110_Driver_0.LCD_timer.counter[5] / D
+    The start point is clocked by            timerZ0|timer_clock_out_sig_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            timerZ0|timer_clock_out_sig_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                     Pin      Pin               Arrival     No. of    
+Name                                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------
+Nokia5110_Driver_0.LCD_timer.counter[14]                  SLE      Q        Out     0.087     0.087       -         
+counter[14]                                               Net      -        -       0.497     -           2         
+Nokia5110_Driver_0.LCD_timer.gen_else\.un2_counter_10     CFG4     D        In      -         0.584       -         
+Nokia5110_Driver_0.LCD_timer.gen_else\.un2_counter_10     CFG4     Y        Out     0.326     0.911       -         
+un2_counter_10                                            Net      -        -       0.248     -           1         
+Nokia5110_Driver_0.LCD_timer.gen_else\.un2_counter_14     CFG4     B        In      -         1.159       -         
+Nokia5110_Driver_0.LCD_timer.gen_else\.un2_counter_14     CFG4     Y        Out     0.164     1.323       -         
+un2_counter_14                                            Net      -        -       0.248     -           1         
+Nokia5110_Driver_0.LCD_timer.gen_else\.un2_counter        CFG4     D        In      -         1.572       -         
+Nokia5110_Driver_0.LCD_timer.gen_else\.un2_counter        CFG4     Y        Out     0.288     1.860       -         
+un2_counter                                               Net      -        -       0.977     -           8         
+Nokia5110_Driver_0.LCD_timer.counter_3[5]                 CFG2     A        In      -         2.836       -         
+Nokia5110_Driver_0.LCD_timer.counter_3[5]                 CFG2     Y        Out     0.100     2.936       -         
+counter_3[5]                                              Net      -        -       0.248     -           1         
+Nokia5110_Driver_0.LCD_timer.counter[5]                   SLE      D        In      -         3.185       -         
+====================================================================================================================
+Total path delay (propagation time + setup) of 3.440 is 1.221(35.5%) logic and 2.219(64.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                       Starting                                                                                           Arrival          
+Instance                               Reference     Type               Pin        Net                                                    Time        Slack
+                                       Clock                                                                                                               
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+FCCC_C0_0.FCCC_C0_0.CCC_INST           System        CCC                LOCK       FCCC_C0_0_LOCK                                         0.000       7.853
+OSC_C0_0.OSC_C0_0.I_RCOSC_25_50MHZ     System        RCOSC_25_50MHZ     CLKOUT     OSC_C0_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC     0.000       8.883
+===========================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                           Starting                                                                       Required          
+Instance                                   Reference     Type     Pin     Net                                             Time         Slack
+                                           Clock                                                                                            
+--------------------------------------------------------------------------------------------------------------------------------------------
+FFT_0.FFT_Transformer_0.sampleB_adr[0]     System        SLE      EN      sampleB_adr_1_sqmuxa                            9.662        7.853
+FFT_0.FFT_Transformer_0.sampleB_adr[1]     System        SLE      EN      sampleB_adr_1_sqmuxa                            9.662        7.853
+FFT_0.FFT_Transformer_0.sampleB_adr[2]     System        SLE      EN      sampleB_adr_1_sqmuxa                            9.662        7.853
+FFT_0.FFT_Transformer_0.sampleB_adr[3]     System        SLE      EN      sampleB_adr_1_sqmuxa                            9.662        7.853
+FFT_0.FFT_Transformer_0.sampleB_adr[4]     System        SLE      EN      sampleB_adr_1_sqmuxa                            9.662        7.853
+FFT_0.FFT_Transformer_0.sampleB_adr[5]     System        SLE      EN      sampleB_adr_1_sqmuxa                            9.662        7.853
+FFT_0.FFT_Transformer_0.sampleB_adr[6]     System        SLE      EN      sampleB_adr_1_sqmuxa                            9.662        7.853
+FFT_0.FFT_Transformer_0.sampleB_adr[7]     System        SLE      EN      sampleB_adr_1_sqmuxa                            9.662        7.853
+FFT_0.i_comp_ram_ready                     System        SLE      EN      N_124_i                                         9.662        8.080
+Sigma_Delta_LVDS_ADC_0.sample_CLK_last     System        SLE      EN      Power_On_Reset_Delay_0_USER_FAB_RESET_OUT_N     9.662        8.499
+============================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.662
+
+    - Propagation time:                      1.809
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 7.853
+
+    Number of logic level(s):                1
+    Starting point:                          FCCC_C0_0.FCCC_C0_0.CCC_INST / LOCK
+    Ending point:                            FFT_0.FFT_Transformer_0.sampleB_adr[0] / EN
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                                            Pin      Pin               Arrival     No. of    
+Name                                             Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------
+FCCC_C0_0.FCCC_C0_0.CCC_INST                     CCC      LOCK     Out     0.000     0.000       -         
+FCCC_C0_0_LOCK                                   Net      -        -       0.745     -           3         
+FFT_0.FFT_Transformer_0.sampleB_adr_1_sqmuxa     CFG3     A        In      -         0.745       -         
+FFT_0.FFT_Transformer_0.sampleB_adr_1_sqmuxa     CFG3     Y        Out     0.087     0.832       -         
+sampleB_adr_1_sqmuxa                             Net      -        -       0.977     -           8         
+FFT_0.FFT_Transformer_0.sampleB_adr[0]           SLE      EN       In      -         1.809       -         
+===========================================================================================================
+Total path delay (propagation time + setup) of 2.147 is 0.425(19.8%) logic and 1.722(80.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:14s; Memory used current: 209MB peak: 217MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:14s; Memory used current: 209MB peak: 217MB)
+
+---------------------------------------
+Resource Usage Report for Spectrum_Analyzer 
+
+Mapping to part: m2s010tq144std
+Cell usage:
+CCC             1 use
+CLKINT          7 uses
+RCOSC_25_50MHZ  1 use
+SYSRESET        1 use
+CFG1           10 uses
+CFG2           248 uses
+CFG3           528 uses
+CFG4           727 uses
+
+Carry cells:
+ARI1            388 uses - used for arithmetic functions
+ARI1            88 uses - used for Wide-Mux implementation
+Total ARI1      476 uses
+
+
+Sequential Cells: 
+SLE            942 uses
+
+DSP Blocks:    3 of 22 (13%)
+ MACC:         3 Mults
+
+I/O ports: 11
+I/O primitives: 9
+INBUF_DIFF     1 use
+OUTBUF         8 uses
+
+
+Global Clock Buffers: 7
+
+RAM/ROM usage summary
+Total Block RAMs (RAM1K18) : 4 of 21 (19%)
+Total Block RAMs (RAM64x18) : 10 of 22 (45%)
+
+Total LUTs:    1989
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 360; LUTs = 360;
+RAM1K18  Interface Logic : SLEs = 144; LUTs = 144;
+MACC     Interface Logic : SLEs = 108; LUTs = 108;
+
+Total number of SLEs after P&R:  942 + 360 + 144 + 108 = 1554;
+Total number of LUTs after P&R:  1989 + 360 + 144 + 108 = 2601;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:14s; Memory used current: 42MB peak: 217MB)
+
+Process took 0h:00m:15s realtime, 0h:00m:14s cputime
+# Sat Mar 14 02:08:24 2020
+
+###########################################################]

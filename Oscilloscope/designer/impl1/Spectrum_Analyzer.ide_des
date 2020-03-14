@@ -1,0 +1,11 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\designer\impl1\Spectrum_Analyzer.adb"
+LIST SOURCE_FILES
+VALUE "C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\constraint\io\user.pdc;pdc"
+VALUE "C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\constraint\io\Digikey_Smartfusion2_Maker_Kit.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope\synthesis\Spectrum_Analyzer_vm.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

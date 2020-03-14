@@ -1,0 +1,1266 @@
+KEY LIBERO "12.600"
+KEY CAPTURE "12.600.0.14"
+KEY DEFAULT_IMPORT_LOC "D:\Appsnotes\2010\User_Logic_to_MSS\design_files\User_Logic_MSS_DF_old\APB_master_fabric\hdl"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "SmartFusion2"
+KEY VendorTechnology_Die "PA4M1000_N"
+KEY VendorTechnology_Package "tq144"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.2"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS25"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_25"
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA4M1000_N"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Oscilloscope"
+KEY ProjectDescription ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "Spectrum_Analyzer::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST LIBRARIES
+COREABC_LIB
+COREAPB3_LIB
+CORECORDIC_LIB
+ENDLIST
+LIST LIBRARY_COREABC_LIB
+ALIAS=COREABC_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
+ENDLIST
+LIST LIBRARY_COREAPB3_LIB
+ALIAS=COREAPB3_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
+ENDLIST
+LIST LIBRARY_CORECORDIC_LIB
+ALIAS=CORECORDIC_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\Actel\DirectCore\COREABC\3.7.101\COREABC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1584083752"
+SIZE="480"
+PARENT="<project>\component\work\COREABC_C0\COREABC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf,actgen_cxf"
+STATE="utd"
+TIME="1584040243"
+SIZE="3259"
+PARENT="<project>\component\work\CoreAPB3_C0\CoreAPB3_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\coreparameters.vhd,tb_hdl"
+STATE="utd"
+TIME="1584040243"
+SIZE="2012"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\mti\scripts\wave_user.do,do"
+STATE="utd"
+TIME="1572988165"
+SIZE="912"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd,tb_hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="4009"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apb.vhd,tb_hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="9540"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd,tb_hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="2074"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd,tb_hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="12455"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd,tb_hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="82848"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_package.vhd,tb_hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="45675"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\misc.vhd,tb_hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="12780"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\textio.vhd,tb_hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="23829"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd,hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="6172"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd,hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="78851"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd,hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="5757"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd,hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="9523"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="28895"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+MODULE_UNDER_TEST="testbench"
+SIMULATION_TIME="-all"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CORECORDIC\4.0.102\coreparameters.vhd,tb_hdl"
+STATE="utd"
+TIME="1583562207"
+SIZE="794"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CORECORDIC\4.0.102\rtl\vhdl\test\user\bhvKit.vhd,tb_hdl"
+STATE="utd"
+TIME="1583452452"
+SIZE="9281"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CORECORDIC\4.0.102\rtl\vhdl\test\user\bhv_pack.vhd,tb_hdl"
+STATE="utd"
+TIME="1583452452"
+SIZE="14551"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\DPSRAM\1.0.101\DPSRAM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1583381882"
+SIZE="243"
+PARENT="<project>\component\work\DPSRAM_C0\DPSRAM_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\FCCC\2.0.201\FCCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1583382722"
+SIZE="241"
+PARENT="<project>\component\work\FCCC_C0\FCCC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\HARD_MULT_ADDSUB\1.0.100\HARD_MULT_ADDSUB.cxf,actgen_cxf"
+STATE="utd"
+TIME="1583619997"
+SIZE="253"
+PARENT="<project>\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0.cxf"
+PARENT="<project>\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1583382699"
+SIZE="682"
+PARENT="<project>\component\work\OSC_C0\OSC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd,hdl"
+STATE="utd"
+TIME="1573066799"
+SIZE="2164"
+PARENT="<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\osc_comps_pre.vhd,hdl"
+STATE="utd"
+TIME="1573066799"
+SIZE="2108"
+PARENT="<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="PRECISION_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1584083753"
+SIZE="11227"
+ENDFILE
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0.vhd,hdl"
+STATE="utd"
+TIME="1584083752"
+SIZE="11106"
+PARENT="<project>\component\work\COREABC_C0\COREABC_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\CoreABC.log,log"
+STATE="utd"
+TIME="1584083751"
+SIZE="2098"
+PARENT="<project>\component\work\COREABC_C0\COREABC_C0_0\COREABC_C0_COREABC_C0_0_COREABC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\COREABC_C0_COREABC_C0_0_COREABC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1584083752"
+SIZE="4820"
+PARENT="<project>\component\work\COREABC_C0\COREABC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\coreparameters_tgi.vhd,hdl"
+STATE="utd"
+TIME="1584083751"
+SIZE="2251"
+LIBRARY="COREABC_LIB"
+PARENT="<project>\component\work\COREABC_C0\COREABC_C0_0\COREABC_C0_COREABC_C0_0_COREABC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\acmtable.vhd,hdl"
+STATE="utd"
+TIME="1584083752"
+SIZE="1780"
+LIBRARY="COREABC_LIB"
+PARENT="<project>\component\work\COREABC_C0\COREABC_C0_0\COREABC_C0_COREABC_C0_0_COREABC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\components.vhd,hdl"
+STATE="utd"
+TIME="1584083752"
+SIZE="4393"
+LIBRARY="COREABC_LIB"
+PARENT="<project>\component\work\COREABC_C0\COREABC_C0_0\COREABC_C0_COREABC_C0_0_COREABC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd,hdl"
+STATE="utd"
+TIME="1584083752"
+SIZE="42290"
+LIBRARY="COREABC_LIB"
+PARENT="<project>\component\work\COREABC_C0\COREABC_C0_0\COREABC_C0_COREABC_C0_0_COREABC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\debugblk.vhd,hdl"
+STATE="utd"
+TIME="1584083752"
+SIZE="16563"
+LIBRARY="COREABC_LIB"
+PARENT="<project>\component\work\COREABC_C0\COREABC_C0_0\COREABC_C0_COREABC_C0_0_COREABC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\instructions.vhd,hdl"
+STATE="utd"
+TIME="1584083752"
+SIZE="102552"
+LIBRARY="COREABC_LIB"
+PARENT="<project>\component\work\COREABC_C0\COREABC_C0_0\COREABC_C0_COREABC_C0_0_COREABC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\instructnvm_bb.vhd,hdl"
+STATE="utd"
+TIME="1584083752"
+SIZE="2399"
+LIBRARY="COREABC_LIB"
+PARENT="<project>\component\work\COREABC_C0\COREABC_C0_0\COREABC_C0_COREABC_C0_0_COREABC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\instructram.vhd,hdl"
+STATE="utd"
+TIME="1584083752"
+SIZE="11287"
+LIBRARY="COREABC_LIB"
+PARENT="<project>\component\work\COREABC_C0\COREABC_C0_0\COREABC_C0_COREABC_C0_0_COREABC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\iram512x9_rtl.vhd,hdl"
+STATE="utd"
+TIME="1584083752"
+SIZE="3379"
+LIBRARY="COREABC_LIB"
+PARENT="<project>\component\work\COREABC_C0\COREABC_C0_0\COREABC_C0_COREABC_C0_0_COREABC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ram128x8_smartfusion2.vhd,hdl"
+STATE="utd"
+TIME="1584083752"
+SIZE="5244"
+LIBRARY="COREABC_LIB"
+PARENT="<project>\component\work\COREABC_C0\COREABC_C0_0\COREABC_C0_COREABC_C0_0_COREABC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ram256x16_rtl.vhd,hdl"
+STATE="utd"
+TIME="1584083752"
+SIZE="1752"
+LIBRARY="COREABC_LIB"
+PARENT="<project>\component\work\COREABC_C0\COREABC_C0_0\COREABC_C0_COREABC_C0_0_COREABC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ram256x8_rtl.vhd,hdl"
+STATE="utd"
+TIME="1584083752"
+SIZE="1745"
+LIBRARY="COREABC_LIB"
+PARENT="<project>\component\work\COREABC_C0\COREABC_C0_0\COREABC_C0_COREABC_C0_0_COREABC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ramblocks.vhd,hdl"
+STATE="utd"
+TIME="1584083752"
+SIZE="16192"
+LIBRARY="COREABC_LIB"
+PARENT="<project>\component\work\COREABC_C0\COREABC_C0_0\COREABC_C0_COREABC_C0_0_COREABC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\support.vhd,hdl"
+STATE="utd"
+TIME="1584083752"
+SIZE="48934"
+LIBRARY="COREABC_LIB"
+PARENT="<project>\component\work\COREABC_C0\COREABC_C0_0\COREABC_C0_COREABC_C0_0_COREABC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\apbmodel.vhd,tb_hdl"
+STATE="utd"
+TIME="1584083752"
+SIZE="5434"
+LIBRARY="COREABC_LIB"
+PARENT="<project>\component\work\COREABC_C0\COREABC_C0_0\COREABC_C0_COREABC_C0_0_COREABC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\misc.vhd,hdl"
+STATE="utd"
+TIME="1584083752"
+SIZE="11824"
+LIBRARY="COREABC_LIB"
+PARENT="<project>\component\work\COREABC_C0\COREABC_C0_0\COREABC_C0_COREABC_C0_0_COREABC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\testbench.vhd,tb_hdl"
+STATE="utd"
+TIME="1584083752"
+SIZE="21961"
+LIBRARY="COREABC_LIB"
+PARENT="<project>\component\work\COREABC_C0\COREABC_C0_0\COREABC_C0_COREABC_C0_0_COREABC.cxf"
+MODULE_UNDER_TEST="testbench"
+SIMULATION_TIME="-all"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\testsupport.vhd,tb_hdl"
+STATE="utd"
+TIME="1584083752"
+SIZE="23371"
+LIBRARY="COREABC_LIB"
+PARENT="<project>\component\work\COREABC_C0\COREABC_C0_0\COREABC_C0_COREABC_C0_0_COREABC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\textio.vhd,hdl"
+STATE="utd"
+TIME="1584083752"
+SIZE="21261"
+LIBRARY="COREABC_LIB"
+PARENT="<project>\component\work\COREABC_C0\COREABC_C0_0\COREABC_C0_COREABC_C0_0_COREABC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CoreAPB3_C0\CoreAPB3_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1584040244"
+SIZE="10151"
+ENDFILE
+VALUE "<project>\component\work\CoreAPB3_C0\CoreAPB3_C0.vhd,hdl"
+STATE="utd"
+TIME="1584040243"
+SIZE="13268"
+PARENT="<project>\component\work\CoreAPB3_C0\CoreAPB3_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\DPSRAM_C0\DPSRAM_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1583381882"
+SIZE="5867"
+ENDFILE
+VALUE "<project>\component\work\DPSRAM_C0\DPSRAM_C0.vhd,hdl"
+STATE="utd"
+TIME="1583381882"
+SIZE="3891"
+PARENT="<project>\component\work\DPSRAM_C0\DPSRAM_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\DPSRAM_C0\DPSRAM_C0_0\DPSRAM_C0_DPSRAM_C0_0_DPSRAM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1583381882"
+SIZE="753"
+PARENT="<project>\component\work\DPSRAM_C0\DPSRAM_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\DPSRAM_C0\DPSRAM_C0_0\DPSRAM_C0_DPSRAM_C0_0_DPSRAM.vhd,hdl"
+STATE="utd"
+TIME="1583381882"
+SIZE="7040"
+PARENT="<project>\component\work\DPSRAM_C0\DPSRAM_C0_0\DPSRAM_C0_DPSRAM_C0_0_DPSRAM.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\FCCC_C0\FCCC_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1583382722"
+SIZE="10451"
+ENDFILE
+VALUE "<project>\component\work\FCCC_C0\FCCC_C0.vhd,hdl"
+STATE="utd"
+TIME="1583382722"
+SIZE="3205"
+PARENT="<project>\component\work\FCCC_C0\FCCC_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1583382722"
+SIZE="705"
+PARENT="<project>\component\work\FCCC_C0\FCCC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.vhd,hdl"
+STATE="utd"
+TIME="1583382721"
+SIZE="5573"
+PARENT="<project>\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1583382491"
+SIZE="4477"
+ENDFILE
+VALUE "<project>\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0.vhd,hdl"
+STATE="utd"
+TIME="1583382490"
+SIZE="3990"
+PARENT="<project>\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0_0\HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB.cxf,actgen_cxf"
+STATE="utd"
+TIME="1583382490"
+SIZE="538"
+PARENT="<project>\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0_0\HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB.vhd,hdl"
+STATE="utd"
+TIME="1583382490"
+SIZE="11253"
+PARENT="<project>\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0_0\HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.cxf,actgen_cxf"
+STATE="utd"
+TIME="1583619997"
+SIZE="5087"
+ENDFILE
+VALUE "<project>\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.vhd,hdl"
+STATE="utd"
+TIME="1583619997"
+SIZE="4448"
+PARENT="<project>\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1_0\HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.cxf,actgen_cxf"
+STATE="utd"
+TIME="1583619997"
+SIZE="538"
+PARENT="<project>\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.cxf"
+ENDFILE
+VALUE "<project>\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1_0\HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.vhd,hdl"
+STATE="utd"
+TIME="1583619997"
+SIZE="11436"
+PARENT="<project>\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1_0\HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Oscilloscope_sd\Oscilloscope_sd.cxf,actgen_cxf"
+STATE="utd"
+TIME="1584040424"
+SIZE="5287"
+ENDFILE
+VALUE "<project>\component\work\OSC_C0\OSC_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1583382699"
+SIZE="2913"
+ENDFILE
+VALUE "<project>\component\work\OSC_C0\OSC_C0.vhd,hdl"
+STATE="utd"
+TIME="1583382699"
+SIZE="3429"
+PARENT="<project>\component\work\OSC_C0\OSC_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1583382699"
+SIZE="460"
+PARENT="<project>\component\work\OSC_C0\OSC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd,hdl"
+STATE="utd"
+TIME="1583382699"
+SIZE="896"
+PARENT="<project>\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Spectrum_Analyzer\Spectrum_Analyzer.cxf,actgen_cxf"
+STATE="utd"
+TIME="1584152534"
+SIZE="4547"
+ENDFILE
+VALUE "<project>\component\work\Spectrum_Analyzer\Spectrum_Analyzer.vhd,hdl"
+STATE="utd"
+TIME="1584152533"
+SIZE="24696"
+PARENT="<project>\component\work\Spectrum_Analyzer\Spectrum_Analyzer.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\constraint\io\Digikey_Smartfusion2_Maker_Kit.pdc,io_pdc"
+STATE="utd"
+TIME="1584085325"
+SIZE="1246"
+ENDFILE
+VALUE "<project>\constraint\io\Oscilloscope.pdc,io_pdc"
+STATE="utd"
+TIME="1583384696"
+SIZE="0"
+ENDFILE
+VALUE "<project>\constraint\io\user.pdc,io_pdc"
+STATE="utd"
+TIME="1584085277"
+SIZE="1215"
+IS_TARGET="TRUE"
+ENDFILE
+VALUE "<project>\designer\impl1\COREABC_C0.ide_des,ide_des"
+STATE="utd"
+TIME="1583536904"
+SIZE="217"
+ENDFILE
+VALUE "<project>\designer\impl1\FFT_Result_to_Pixel_Bar.ide_des,ide_des"
+STATE="utd"
+TIME="1584039941"
+SIZE="230"
+ENDFILE
+VALUE "<project>\designer\impl1\Sigma_Delta_LVDS_ADC.ide_des,ide_des"
+STATE="utd"
+TIME="1583384669"
+SIZE="227"
+ENDFILE
+VALUE "<project>\designer\impl1\Spectrum_Analyzer.ide_des,ide_des"
+STATE="utd"
+TIME="1584085280"
+SIZE="542"
+ENDFILE
+VALUE "<project>\designer\impl1\XTLOSC_FAB.ide_des,ide_des"
+STATE="utd"
+TIME="1583806384"
+SIZE="217"
+ENDFILE
+VALUE "<project>\hdl\Abs_Val_Cmplx.vhd,hdl"
+STATE="utd"
+TIME="1583872889"
+SIZE="7211"
+ENDFILE
+VALUE "<project>\hdl\FFT_Result_to_Pixel_Bar.vhd,hdl"
+STATE="utd"
+TIME="1584081576"
+SIZE="12422"
+ENDFILE
+VALUE "<project>\simulation\bfmtovec_compile.log,log"
+STATE="utd"
+TIME="1584153892"
+SIZE="407"
+ENDFILE
+VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
+STATE="utd"
+TIME="1572988165"
+SIZE="1229"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\simulation\coreapb3_usertb_master.bfm,sim"
+STATE="utd"
+TIME="1572988165"
+SIZE="8016"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1584153884"
+SIZE="7181"
+ENDFILE
+VALUE "<project>\simulation\subsystem.bfm,sim"
+STATE="utd"
+TIME="1584153884"
+SIZE="1077"
+PARENT="<project>\component\work\Spectrum_Analyzer\Spectrum_Analyzer.cxf"
+ENDFILE
+VALUE "<project>\simulation\testbench_presynth_simulation.log,log"
+STATE="utd"
+TIME="1584154615"
+SIZE="27511896"
+ENDFILE
+VALUE "<project>\stimulus\FFT_Result_to_Pixel_Bar_tb.vhd,tb_hdl"
+STATE="utd"
+TIME="1584084178"
+SIZE="6129"
+ENDFILE
+VALUE "<project>\stimulus\Spectrum_Analyzer_tb.vhd,tb_hdl"
+STATE="utd"
+TIME="1584158409"
+SIZE="18559"
+ENDFILE
+VALUE "<project>\synthesis\Spectrum_Analyzer.so,so"
+STATE="utd"
+TIME="1584085151"
+SIZE="264"
+ENDFILE
+VALUE "<project>\synthesis\Spectrum_Analyzer.vm,syn_vm"
+STATE="ood"
+TIME="1584085150"
+SIZE="766002"
+ENDFILE
+VALUE "<project>\synthesis\Spectrum_Analyzer_syn.prj,prj"
+STATE="utd"
+TIME="1584085152"
+SIZE="8699"
+ENDFILE
+VALUE "<project>\synthesis\Spectrum_Analyzer_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1584085151"
+SIZE="1711"
+ENDFILE
+VALUE "<project>\synthesis\synwork\layer0.so,so"
+STATE="utd"
+TIME="1584081558"
+SIZE="159"
+ENDFILE
+VALUE "C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Absolute_Value_Complex\hdl\Alpha_Max_plus_Beta_Min.vhd,hdl"
+STATE="utd"
+TIME="1583620761"
+SIZE="7869"
+ENDFILE
+VALUE "C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\FFT_Core\hdl\FFT.vhd,hdl"
+STATE="utd"
+TIME="1583380509"
+SIZE="33768"
+ENDFILE
+VALUE "C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\FFT_Core\hdl\FFT_Butterfly_HW_MATHDSP.vhd,hdl"
+STATE="utd"
+TIME="1583573222"
+SIZE="29314"
+ENDFILE
+VALUE "C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\FFT_Core\hdl\FFT_Package.vhd,hdl"
+STATE="utd"
+TIME="1584125625"
+SIZE="3466"
+ENDFILE
+VALUE "C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\FFT_Core\hdl\FFT_Sample_Loader.vhd,hdl"
+STATE="utd"
+TIME="1583363569"
+SIZE="10184"
+ENDFILE
+VALUE "C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\FFT_Core\hdl\FFT_Sample_Outputer.vhd,hdl"
+STATE="utd"
+TIME="1583374537"
+SIZE="6732"
+ENDFILE
+VALUE "C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\FFT_Core\hdl\FFT_Transformer.vhd,hdl"
+STATE="utd"
+TIME="1583371334"
+SIZE="20772"
+ENDFILE
+VALUE "C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\FFT_Core\hdl\Twiddle_table.vhd,hdl"
+STATE="utd"
+TIME="1583351075"
+SIZE="2495291"
+ENDFILE
+VALUE "C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Nokia5110_Driver_12_1\hdl\Nokia5110_Driver.vhd,hdl"
+STATE="utd"
+TIME="1573888855"
+SIZE="32907"
+ENDFILE
+VALUE "C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Sigma_Delta_ADC\hdl\Averaging_Filter.vhd,hdl"
+STATE="utd"
+TIME="1580263377"
+SIZE="3648"
+ENDFILE
+VALUE "C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Sigma_Delta_ADC\hdl\Pixelbar_Creator.vhd,hdl"
+STATE="utd"
+TIME="1583982087"
+SIZE="5258"
+ENDFILE
+VALUE "C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Sigma_Delta_ADC\hdl\Sigma_Delta_LVDS_ADC.vhd,hdl"
+STATE="utd"
+TIME="1581898254"
+SIZE="4930"
+ENDFILE
+VALUE "C:\Users\Phoenix136\Dropbox\FPGA\My_Stuff\Standalone Files\Power_On_Reset_Delay.vhd,hdl"
+STATE="utd"
+TIME="1580629403"
+SIZE="1843"
+ENDFILE
+VALUE "C:\Users\Phoenix136\Dropbox\FPGA\My_Stuff\Standalone Files\timer.vhd,hdl"
+STATE="utd"
+TIME="1579567342"
+SIZE="2522"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "Spectrum_Analyzer::work"
+FILE "<project>\component\work\Spectrum_Analyzer\Spectrum_Analyzer.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\subsystem.bfm,sim"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\Spectrum_Analyzer_tb.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "COREABC_C0_COREABC_C0_0_COREABC::coreabc_lib"
+FILE "<project>\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\testsupport.vhd,tb_hdl"
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\apbmodel.vhd,tb_hdl"
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\testbench.vhd,tb_hdl"
+ENDLIST
+ENDLIST
+LIST "CoreAPB3::coreapb3_lib"
+FILE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
+VALUE "<project>\simulation\coreapb3_usertb_master.bfm,sim"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\misc.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\textio.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_package.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\mti\scripts\wave_user.do,do"
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST Spectrum_Analyzer
+VALUE "<project>\stimulus\Spectrum_Analyzer_tb.vhd,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+LIST Spectrum_Analyzer
+VALUE "<project>\simulation\subsystem.bfm,sim"
+ENDLIST
+LIST COREABC_C0_COREABC_C0_0_COREABC
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\testsupport.vhd,tb_hdl"
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\apbmodel.vhd,tb_hdl"
+VALUE "<project>\component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\testbench.vhd,tb_hdl"
+ENDLIST
+LIST CoreAPB3
+VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
+VALUE "<project>\simulation\coreapb3_usertb_master.bfm,sim"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\misc.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\textio.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_package.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\mti\scripts\wave_user.do,do"
+ENDLIST
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=10ms
+Resolution=1ps
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=TRUE
+LibraryPath=C:/Microsemi/Libero_SoC_v12.1/Designer/lib/modelsimpro/precompiled\vlog\SmartFusion2
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+OnDemandBuildDH=TRUE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=TRUE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+InstantiateInSmartDesign=FALSE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="SynplifyProME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\bin\synplify_pro.exe"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSimME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Microsemi\Libero_SoC_v12.1\ModelSim\win32acoem\modelsim.exe"
+PARAM=" -l testbench_presynth_simulation.log "
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FPExpress"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Microsemi\Libero_SoC_v12.1\Designer\binfp\FPExpress.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="IdentifyDebugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microsemi\Libero_SoC_v12.1\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "Spectrum_Analyzer::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+StartPage;StartPage;0
+ACTIVEVIEW;StartPage
+ENDLIST
+LIST ModuleSubBlockList
+LIST "Abs_Val_Cmplx::work","hdl\Abs_Val_Cmplx.vhd","FALSE","FALSE"
+SUBBLOCK "Alpha_Max_plus_Beta_Min::work","C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Absolute_Value_Complex\hdl\Alpha_Max_plus_Beta_Min.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Averaging_Filter::work","","FALSE","FALSE"
+ENDLIST
+LIST "COREABC_C0::work","component\work\COREABC_C0\COREABC_C0.vhd","TRUE","FALSE"
+SUBBLOCK "COREABC_C0_COREABC_C0_0_COREABC::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CoreAPB3_C0::work","component\work\CoreAPB3_C0\CoreAPB3_C0.vhd","TRUE","FALSE"
+SUBBLOCK "CoreAPB3::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd","FALSE","FALSE"
+ENDLIST
+LIST "DPSRAM_C0::work","component\work\DPSRAM_C0\DPSRAM_C0.vhd","TRUE","FALSE"
+SUBBLOCK "DPSRAM_C0_DPSRAM_C0_0_DPSRAM::work","component\work\DPSRAM_C0\DPSRAM_C0_0\DPSRAM_C0_DPSRAM_C0_0_DPSRAM.vhd","FALSE","FALSE"
+ENDLIST
+LIST "DPSRAM_C0_DPSRAM_C0_0_DPSRAM::work","component\work\DPSRAM_C0\DPSRAM_C0_0\DPSRAM_C0_DPSRAM_C0_0_DPSRAM.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Alpha_Max_plus_Beta_Min::work","C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Absolute_Value_Complex\hdl\Alpha_Max_plus_Beta_Min.vhd","FALSE","FALSE"
+SUBBLOCK "HARD_MULT_ADDSUB_C1::work","component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.vhd","TRUE","FALSE"
+ENDLIST
+LIST "Averaging_Filter::work","C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Sigma_Delta_ADC\hdl\Averaging_Filter.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Nokia5110_Driver::work","C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Nokia5110_Driver_12_1\hdl\Nokia5110_Driver.vhd","FALSE","FALSE"
+SUBBLOCK "timer::work","C:\Users\Phoenix136\Dropbox\FPGA\My_Stuff\Standalone Files\timer.vhd","FALSE","FALSE"
+SUBBLOCK "timer::work","C:\Users\Phoenix136\Dropbox\FPGA\My_Stuff\Standalone Files\timer.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Pixelbar_Creator::work","C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Sigma_Delta_ADC\hdl\Pixelbar_Creator.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_25_50MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Sigma_Delta_LVDS_ADC::work","C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Sigma_Delta_ADC\hdl\Sigma_Delta_LVDS_ADC.vhd","FALSE","FALSE"
+SUBBLOCK "timer::work","C:\Users\Phoenix136\Dropbox\FPGA\My_Stuff\Standalone Files\timer.vhd","FALSE","FALSE"
+ENDLIST
+LIST "timer::work","C:\Users\Phoenix136\Dropbox\FPGA\My_Stuff\Standalone Files\timer.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Twiddle_table::work","C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\FFT_Core\hdl\Twiddle_table.vhd","FALSE","FALSE"
+ENDLIST
+LIST "timer::work","C:\Users\Phoenix136\Dropbox\FPGA\My_Stuff\Standalone Files\timer.vhd","FALSE","FALSE"
+ENDLIST
+LIST "timer::work","C:\Users\Phoenix136\Dropbox\FPGA\My_Stuff\Standalone Files\timer.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FCCC_C0::work","component\work\FCCC_C0\FCCC_C0.vhd","TRUE","FALSE"
+SUBBLOCK "FCCC_C0_FCCC_C0_0_FCCC::work","component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FCCC_C0_FCCC_C0_0_FCCC::work","component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FFT::work","","FALSE","FALSE"
+ENDLIST
+LIST "FFT::work","C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\FFT_Core\hdl\FFT.vhd","FALSE","FALSE"
+SUBBLOCK "DPSRAM_C0::work","component\work\DPSRAM_C0\DPSRAM_C0.vhd","TRUE","FALSE"
+SUBBLOCK "FFT_Sample_Loader::work","C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\FFT_Core\hdl\FFT_Sample_Loader.vhd","FALSE","FALSE"
+SUBBLOCK "FFT_Sample_Outputer::work","C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\FFT_Core\hdl\FFT_Sample_Outputer.vhd","FALSE","FALSE"
+SUBBLOCK "FFT_Transformer::work","C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\FFT_Core\hdl\FFT_Transformer.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FFT_Butterfly_HW_MATHDSP::work","C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\FFT_Core\hdl\FFT_Butterfly_HW_MATHDSP.vhd","FALSE","FALSE"
+SUBBLOCK "HARD_MULT_ADDSUB_C0::work","component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0.vhd","TRUE","FALSE"
+ENDLIST
+LIST "FFT_package::work","C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\FFT_Core\hdl\FFT_Package.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FFT_Result_to_Pixel_Bar::work","hdl\FFT_Result_to_Pixel_Bar.vhd","FALSE","FALSE"
+SUBBLOCK "Alpha_Max_plus_Beta_Min::work","C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Absolute_Value_Complex\hdl\Alpha_Max_plus_Beta_Min.vhd","FALSE","FALSE"
+SUBBLOCK "Pixelbar_Creator::work","C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Sigma_Delta_ADC\hdl\Pixelbar_Creator.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FFT_Sample_Loader::work","C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\FFT_Core\hdl\FFT_Sample_Loader.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FFT_Sample_Outputer::work","C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\FFT_Core\hdl\FFT_Sample_Outputer.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FFT_Transformer::work","C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\FFT_Core\hdl\FFT_Transformer.vhd","FALSE","FALSE"
+SUBBLOCK "FFT_Butterfly_HW_MATHDSP::work","C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\FFT_Core\hdl\FFT_Butterfly_HW_MATHDSP.vhd","FALSE","FALSE"
+SUBBLOCK "Twiddle_table::work","C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\FFT_Core\hdl\Twiddle_table.vhd","FALSE","FALSE"
+ENDLIST
+LIST "HARD_MULT_ADDSUB_C0::work","component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0.vhd","TRUE","FALSE"
+SUBBLOCK "HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB::work","component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0_0\HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB.vhd","FALSE","FALSE"
+ENDLIST
+LIST "HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB::work","component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0_0\HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB.vhd","FALSE","FALSE"
+ENDLIST
+LIST "HARD_MULT_ADDSUB_C1::work","component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.vhd","TRUE","FALSE"
+SUBBLOCK "HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB::work","component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1_0\HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.vhd","FALSE","FALSE"
+ENDLIST
+LIST "HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB::work","component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1_0\HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Nokia5110_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "OSC_C0::work","component\work\OSC_C0\OSC_C0.vhd","TRUE","FALSE"
+SUBBLOCK "OSC_C0_OSC_C0_0_OSC::work","component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd","FALSE","FALSE"
+ENDLIST
+LIST "OSC_C0_OSC_C0_0_OSC::work","component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd","FALSE","FALSE"
+SUBBLOCK "RCOSC_25_50MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Oscilloscope_sd::work","component\work\Oscilloscope_sd\Oscilloscope_sd.cxf","TRUE","FALSE"
+SUBBLOCK "COREABC_C0::work","component\work\COREABC_C0\COREABC_C0.vhd","TRUE","FALSE"
+SUBBLOCK "CoreAPB3_C0::work","component\work\CoreAPB3_C0\CoreAPB3_C0.vhd","TRUE","FALSE"
+SUBBLOCK "FCCC_C0::work","component\work\FCCC_C0\FCCC_C0.vhd","TRUE","FALSE"
+SUBBLOCK "FFT::work","","FALSE","FALSE"
+SUBBLOCK "OSC_C0::work","component\work\OSC_C0\OSC_C0.vhd","TRUE","FALSE"
+SUBBLOCK "Averaging_Filter::work","","FALSE","FALSE"
+SUBBLOCK "Nokia5110_Driver::work","","FALSE","FALSE"
+SUBBLOCK "Pixelbar_Creator::work","","FALSE","FALSE"
+SUBBLOCK "Power_On_Reset_Delay::work","","FALSE","FALSE"
+SUBBLOCK "Sigma_Delta_LVDS_ADC::work","","FALSE","FALSE"
+ENDLIST
+LIST "Pixelbar_Creator::work","","FALSE","FALSE"
+ENDLIST
+LIST "Power_On_Reset_Delay::work","","FALSE","FALSE"
+ENDLIST
+LIST "Power_On_Reset_Delay::work","C:\Users\Phoenix136\Dropbox\FPGA\My_Stuff\Standalone Files\Power_On_Reset_Delay.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_1MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_1MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_25_50MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Sigma_Delta_LVDS_ADC::work","","FALSE","FALSE"
+ENDLIST
+LIST "Spectrum_Analyzer::work","component\work\Spectrum_Analyzer\Spectrum_Analyzer.vhd","TRUE","FALSE"
+SUBBLOCK "COREABC_C0::work","component\work\COREABC_C0\COREABC_C0.vhd","TRUE","FALSE"
+SUBBLOCK "CoreAPB3_C0::work","component\work\CoreAPB3_C0\CoreAPB3_C0.vhd","TRUE","FALSE"
+SUBBLOCK "FCCC_C0::work","component\work\FCCC_C0\FCCC_C0.vhd","TRUE","FALSE"
+SUBBLOCK "FFT::work","C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\FFT_Core\hdl\FFT.vhd","FALSE","FALSE"
+SUBBLOCK "FFT_Result_to_Pixel_Bar::work","hdl\FFT_Result_to_Pixel_Bar.vhd","FALSE","FALSE"
+SUBBLOCK "OSC_C0::work","component\work\OSC_C0\OSC_C0.vhd","TRUE","FALSE"
+SUBBLOCK "Power_On_Reset_Delay::work","C:\Users\Phoenix136\Dropbox\FPGA\My_Stuff\Standalone Files\Power_On_Reset_Delay.vhd","FALSE","FALSE"
+SUBBLOCK "Averaging_Filter::work","C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Sigma_Delta_ADC\hdl\Averaging_Filter.vhd","FALSE","FALSE"
+SUBBLOCK "Nokia5110_Driver::work","C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Nokia5110_Driver_12_1\hdl\Nokia5110_Driver.vhd","FALSE","FALSE"
+SUBBLOCK "Sigma_Delta_LVDS_ADC::work","C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Sigma_Delta_ADC\hdl\Sigma_Delta_LVDS_ADC.vhd","FALSE","FALSE"
+ENDLIST
+LIST "XTLOSC::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "XTLOSC_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "bhv_kitDelay_reg::work","component\Actel\DirectCore\CORECORDIC\4.0.102\rtl\vhdl\test\user\bhvKit.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bhv_pack::work","component\Actel\DirectCore\CORECORDIC\4.0.102\rtl\vhdl\test\user\bhv_pack.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bhvClkGen::work","component\Actel\DirectCore\CORECORDIC\4.0.102\rtl\vhdl\test\user\bhvKit.vhd","FALSE","TRUE"
+SUBBLOCK "bhv_kitDelay_bit_reg::work","component\Actel\DirectCore\CORECORDIC\4.0.102\rtl\vhdl\test\user\bhvKit.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bhvClockGen::work","component\Actel\DirectCore\CORECORDIC\4.0.102\rtl\vhdl\test\user\bhvKit.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bhvCountS::work","component\Actel\DirectCore\CORECORDIC\4.0.102\rtl\vhdl\test\user\bhvKit.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bhvDelay::work","component\Actel\DirectCore\CORECORDIC\4.0.102\rtl\vhdl\test\user\bhvKit.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bhvEdge::work","component\Actel\DirectCore\CORECORDIC\4.0.102\rtl\vhdl\test\user\bhvKit.vhd","FALSE","TRUE"
+ENDLIST
+LIST "coreparameters::work","component\Actel\DirectCore\CORECORDIC\4.0.102\coreparameters.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bhv_kitDelay_bit_reg::work","component\Actel\DirectCore\CORECORDIC\4.0.102\rtl\vhdl\test\user\bhvKit.vhd","FALSE","TRUE"
+ENDLIST
+LIST "testbench::work","stimulus\FFT_Result_to_Pixel_Bar_tb.vhd","FALSE","TRUE"
+SUBBLOCK "Spectrum_Analyzer::work","component\work\Spectrum_Analyzer\Spectrum_Analyzer.vhd","TRUE","FALSE"
+ENDLIST
+LIST "COREABC_C0_COREABC_C0_0_ACMTABLE::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\acmtable.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREABC_C0_COREABC_C0_0_components::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\components.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREABC_C0_COREABC_C0_0_COREABC::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd","FALSE","FALSE"
+SUBBLOCK "COREABC_C0_COREABC_C0_0_ACMTABLE::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\acmtable.vhd","FALSE","FALSE"
+SUBBLOCK "COREABC_C0_COREABC_C0_0_INSTRUCTNVM::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\instructnvm_bb.vhd","FALSE","FALSE"
+SUBBLOCK "COREABC_C0_COREABC_C0_0_INSTRUCTRAM::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\instructram.vhd","FALSE","FALSE"
+SUBBLOCK "COREABC_C0_COREABC_C0_0_DEBUGBLK::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\debugblk.vhd","FALSE","FALSE"
+SUBBLOCK "COREABC_C0_COREABC_C0_0_INSTRUCTIONS::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\instructions.vhd","FALSE","FALSE"
+SUBBLOCK "COREABC_C0_COREABC_C0_0_RAMBLOCKS::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ramblocks.vhd","FALSE","FALSE"
+SUBBLOCK "COREABC_C0_COREABC_C0_0_ACMTABLE::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\acmtable.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREABC_C0_COREABC_C0_0_coreparameters_tgi::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\coreparameters_tgi.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREABC_C0_COREABC_C0_0_INSTRUCTNVM::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\instructnvm_bb.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREABC_C0_COREABC_C0_0_INSTRUCTRAM::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\instructram.vhd","FALSE","FALSE"
+SUBBLOCK "COREABC_C0_COREABC_C0_0_IRAM512X9::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\iram512x9_rtl.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREABC_C0_COREABC_C0_0_IRAM512X9::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\iram512x9_rtl.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREABC_C0_COREABC_C0_0_misc::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\misc.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREABC_C0_COREABC_C0_0_RAM128X8::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ram128x8_smartfusion2.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREABC_C0_COREABC_C0_0_RAM256X16::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ram256x16_rtl.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREABC_C0_COREABC_C0_0_RAM256X8::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ram256x8_rtl.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREABC_C0_COREABC_C0_0_support::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\support.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREABC_C0_COREABC_C0_0_textio::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\textio.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREABC_C0_COREABC_C0_0_textio_test::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\textio.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREABC_C0_COREABC_C0_0_DEBUGBLK::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\debugblk.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREABC_C0_COREABC_C0_0_INSTRUCTIONS::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\instructions.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREABC_C0_COREABC_C0_0_RAMBLOCKS::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ramblocks.vhd","FALSE","FALSE"
+SUBBLOCK "COREABC_C0_COREABC_C0_0_RAM128X8::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ram128x8_smartfusion2.vhd","FALSE","FALSE"
+SUBBLOCK "COREABC_C0_COREABC_C0_0_RAM256X16::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ram256x16_rtl.vhd","FALSE","FALSE"
+SUBBLOCK "COREABC_C0_COREABC_C0_0_RAM256X8::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\ram256x8_rtl.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREABC_C0_COREABC_C0_0_testsupport::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\testsupport.vhd","FALSE","TRUE"
+ENDLIST
+LIST "COREABC_C0_COREABC_C0_0_ACMTABLE::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\acmtable.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREABC_C0_COREABC_C0_0_APBModel::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\apbmodel.vhd","FALSE","TRUE"
+ENDLIST
+LIST "COREABC_C0_COREABC_C0_0_APBModel::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\apbmodel.vhd","FALSE","TRUE"
+ENDLIST
+LIST "COREABC_C0_COREABC_C0_0_APBModel::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\apbmodel.vhd","FALSE","TRUE"
+ENDLIST
+LIST "COREABC_C0_COREABC_C0_0_APBModel::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\apbmodel.vhd","FALSE","TRUE"
+ENDLIST
+LIST "TESTBENCH::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\testbench.vhd","FALSE","TRUE"
+SUBBLOCK "COREABC_C0_COREABC_C0_0_COREABC::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\core\coreabc.vhd","FALSE","FALSE"
+SUBBLOCK "COREABC_C0_COREABC_C0_0_APBModel::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\apbmodel.vhd","FALSE","TRUE"
+SUBBLOCK "COREABC_C0_COREABC_C0_0_APBModel::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\apbmodel.vhd","FALSE","TRUE"
+SUBBLOCK "COREABC_C0_COREABC_C0_0_APBModel::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\apbmodel.vhd","FALSE","TRUE"
+SUBBLOCK "COREABC_C0_COREABC_C0_0_APBModel::coreabc_lib","component\work\COREABC_C0\COREABC_C0_0\rtl\vhdl\test\apbmodel.vhd","FALSE","TRUE"
+ENDLIST
+LIST "components::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CoreAPB3::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd","FALSE","FALSE"
+SUBBLOCK "COREAPB3_MUXPTOB3::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd","FALSE","FALSE"
+SUBBLOCK "coreapb3_iaddr_reg::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd","FALSE","FALSE"
+ENDLIST
+LIST "coreapb3_iaddr_reg::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREAPB3_MUXPTOB3::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd","FALSE","FALSE"
+ENDLIST
+LIST "bfm_misc::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\misc.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfM_packAGE::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_package.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfm_textio::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\textio.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfm_textio_test::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\textio.vhd","FALSE","TRUE"
+ENDLIST
+LIST "coreparameters::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\coreparameters.vhd","FALSE","TRUE"
+ENDLIST
+LIST "BFM_apb::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apb.vhd","FALSE","TRUE"
+SUBBLOCK "BFMA1i1lI::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd","FALSE","TRUE"
+SUBBLOCK "bFM_maiN::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd","FALSE","TRUE"
+ENDLIST
+LIST "BFM_apbSLAve::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd","FALSE","TRUE"
+SUBBLOCK "BFM_apBSLaveeXT::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd","FALSE","TRUE"
+ENDLIST
+LIST "BFM_apBSLaveeXT::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bFM_maiN::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd","FALSE","TRUE"
+ENDLIST
+LIST "BFMA1i1lI::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd","FALSE","TRUE"
+ENDLIST
+LIST "testbench::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\test\user\testbench.vhd","FALSE","TRUE"
+SUBBLOCK "CoreAPB3::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd","FALSE","FALSE"
+SUBBLOCK "BFM_apb::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apb.vhd","FALSE","TRUE"
+SUBBLOCK "BFM_apbSLAve::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd","FALSE","TRUE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+VALUE "constraint\io\Digikey_Smartfusion2_Maker_Kit.pdc"
+VALUE "constraint\io\Oscilloscope.pdc"
+VALUE "constraint\io\user.pdc"
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

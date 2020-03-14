@@ -1,0 +1,52 @@
+
+fsm_encoding {30728721} sequential
+
+fsm_state_encoding {30728721} idle {00}
+
+fsm_state_encoding {30728721} step1 {01}
+
+fsm_state_encoding {30728721} step2 {10}
+
+fsm_registers {30728721} {filter_state[1]}  {filter_state[0]} 
+
+fsm_encoding {3986928692} sequential
+
+fsm_state_encoding {3986928692} cycle0 {00}
+
+fsm_state_encoding {3986928692} cycle1 {01}
+
+fsm_state_encoding {3986928692} cycle2 {10}
+
+fsm_state_encoding {3986928692} cycle3 {11}
+
+fsm_registers {3986928692} {ICYCLE[1]}  {ICYCLE[0]} 
+
+fsm_encoding {4519581953} sequential
+
+fsm_state_encoding {4519581953} sreset {00}
+
+fsm_state_encoding {4519581953} paused {01}
+
+fsm_state_encoding {4519581953} ready {10}
+
+fsm_state_encoding {4519581953} writing {11}
+
+fsm_registers {4519581953} {load_state[1]}  {load_state[0]} 
+
+fsm_encoding {4829482944} sequential
+
+fsm_state_encoding {4829482944} rundft {00}
+
+fsm_state_encoding {4829482944} dftrunning {01}
+
+fsm_state_encoding {4829482944} fftdone {10}
+
+fsm_registers {4829482944} {stage_state[1]}  {stage_state[0]} 
+
+fsm_encoding {5650085005} sequential
+
+fsm_state_encoding {5650085005} init {0}
+
+fsm_state_encoding {5650085005} data {1}
+
+fsm_registers {5650085005} {LCD_State[0]} 

@@ -1,0 +1,24 @@
+----------------------------------------------------------------
+-Pin Report - Date: Sat Mar 14 02:14:45 2020 Pinchecksum: NOT-AVAILABLE
+-Product: Designer
+-Release: v12.1
+-Version: 12.600.0.14
+-Design Name: Spectrum_Analyzer
+-Family: SmartFusion2
+-Die: M2S010
+-Package: 144 TQ
+-----------------------------------------------------------------
+
+Port               |Pin |Fixed |Function             |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
+-------------------|----|------|---------------------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
+Board_J7[0]         92   Yes    MSIO5PB2/USB_DATA4_B  Bank2     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+Board_J7[1]         16   Yes    MSIO77PB7             Bank7     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+Board_J7[2]         94   Yes    MSIO6PB2/USB_DATA6_B  Bank2     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+Board_J7[3]         21   Yes    MSIO81NB7             Bank7     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+Board_J7[4]         22   Yes    MSIO81PB7             Bank7     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+Board_J8            3    Yes    MSIO67NB7             Bank7     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+DEVRST_N            72   Fixed  DEVRST_N              ---       
+feedback2           93   Yes    MSIO5NB2/USB_DATA5_B  Bank2     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+LVDS_PADN_feedback  81   Yes    MSIO0NB2/USB_DATA7_B  Bank2     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+PADN                90   Yes    MSIO3NB2/USB_DATA1_B  Bank2     SSTL2I     Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+PADP                88   Yes    MSIO3PB2/USB_DATA0_B  Bank2     SSTL2I     Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
