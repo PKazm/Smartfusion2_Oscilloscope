@@ -1,7 +1,7 @@
 # Smartfusion2_Oscilloscope
  An Oscilloscope with as much of the design contained within the FPGA as possible.
 
-!(Spectrum Analyzer System)[Oscilloscope\EXTRA%20FILES\Block%20Diagrams\Spect_Analyzer_Block_Diagram.png]
+![Spectrum Analyzer System](Oscilloscope/EXTRA%20FILES/Block%20Diagrams/Spect_Analyzer_Block_Diagram.png)
 
 ## Analog to Digital
 
