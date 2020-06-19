@@ -1,3 +1,0 @@
-@E: CD371 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Sigma_Delta_ADC\hdl\Pixelbar_Creator.vhd":143:19:143:37|No matching overload for "="
-@E: CD676 :"C:\Users\Phoenix136\Dropbox\FPGA\Microsemi\Sigma_Delta_ADC\hdl\Pixelbar_Creator.vhd":143:40:143:43|Can't implement expression (no function signature?)
-
